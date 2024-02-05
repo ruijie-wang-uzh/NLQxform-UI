@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>DBLP_QA DEMO</title>
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/styles.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+<header class="d-md-flex justify-content-md-center align-items-md-center">
+    <nav class="navbar navbar-expand-md bg-body" style="padding-top: 40px">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center">NLQxform-UI: A Natural Language Interface for Querying DBLP Interactively</h1>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <div class="row" id="question" style="margin-top: 50px;margin-bottom: 50px;">
+        <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6 mx-auto">
+            <div class="row">
+                <div class="col"><h4 style="color: rgb(120,59,248);">Question</h4></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form method="post" action="{{ url_for('index') }}">
+                     <textarea
+                             class="bg-body-tertiary bg-gradient border rounded border-dark-subtle form-control-lg"
+                             id="input_question"
+                             style="width: 100%;position: relative;overflow: auto;height: 100%;font-style: italic;color: #0d6efd;"
+                             name="input_question" placeholder="Please input your question." cols="0" autocomplete="on"
+                             spellcheck="true" data-bs-theme="light" rows="6" autofocus=""
+                     >{% if info is not none and info.question|default('')|length > 0 %}{{ info.question }}{% endif %}</textarea>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-primary btn-lg border rounded" id="ask" type="submit"
+                                    style="margin: 10px;background: rgb(120,59,248);">ASK
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="col"><h4>Examples</h4>
+            <ul data-bs-toggle="tooltip" data-bss-tooltip="" id="textList" style="font-size: 16px;" title="Click to auto-complete the question area.">
+                <li style="line-height: 20px;margin-top: 10px;margin-bottom: 10px;"><a>Find the primary affiliation of the author of Designing the Web for an Open Society?</a></li>
+                <li style="line-height: 20px;margin-top: 10px;margin-bottom: 10px;"><a>List the authors of 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding' and the venues of the other papers they published.</a></li>
+                <li style="line-height: 20px;margin-top: 10px;margin-bottom: 10px;"><a>How many research papers did Alan M. Turing and M H A Newman write together?</a></li>
+                <li style="line-height: 20px;margin-top: 10px;margin-bottom: 10px;"><a>What papers did Tim Berners-Lee publish at The Web Conference (WWW)?</a></li>
+                <li style="line-height: 20px;margin-top: 10px;margin-bottom: 10px;"><a>Which papers did Andrew Chi-Chih Yao publish in the last 5 years?</a></li>
+                <li style="line-height: 20px;margin-top: 10px;margin-bottom: 10px;"><a>Which other papers were written by the authors of Attention is All you Need?</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="row" id="loading_container" style="margin-top: 20px;margin-left: 50%; transform: translate(-50%, -50%); text-align:center;display: none;">
+        <div class="col d-lg-flex justify-content-lg-center align-items-lg-center">
+            <span id="loading-icon" class="spinner-border text-primary" role="status"></span>
+            <div class="text-primary"> Processing...</div>
+        </div>
+    </div>
+
+    <div id="intermediate_outputs" style="display:{{ display }}">
+        <hr>
+        <div class="row" id="logical_form" style="margin-top: 20px;display: flex;">
+            <div class="col-sm-12 col-xl-12"><h4 style="color: rgb(228,79,46);"><span style="color: rgb(228, 79, 46);">Logical Form</span>
+            </h4>
+                <div class="row">
+                    <div class="col d-flex d-md-flex d-lg-flex d-xl-flex align-items-center align-items-md-center align-items-lg-center align-items-xl-center">
+                        {% if info is not none and info.prediction_postprocessed|default('')|length > 0 %}
+                            <pre class="change-color" id="logical_form_output" style="font-size: 20px;">{{ info.prediction_postprocessed }}</pre>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {% if info and (info.entity_mapping|default({})|length > 0 or info.string_mapping|default({})|length > 0) or info.number|default([])|length > 0%}
+        <hr>
+        <div class="row" id="information_dictionary" style="margin-top: 20px;">
+            <div class="col-sm-12 col-md-12 col-xl-12"><h4 style="color: rgb(228,79,46);">
+                <span style="color: rgb(228, 79, 46);">Entity Linking & Literal Matching</span>
+            </h4>
+            {% if info and info.entity_mapping|default({})|length > 0 %}
+                <div class="row" id="topic_area">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1 d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center"
+                         style="background: var(--bs-gray-200);"><span style="font-size: 20px;"><strong><span
+                            style="color: rgb(4, 204, 231);">TOPIC</span></strong></span></div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11" style="background: var(--bs-tertiary-bg);">
+
+                        {% for key, value in info.entity_mapping.items() %}
+                                <div class="row" style="margin-top: 10px;margin-bottom: 10px;">
+                                    <div class="col-md-12 col-lg-3">
+                                        <span id="topic1_label" style="font-size: 20px;">{{ key }}</span>
+                                        <form>
+                                            {% for line in value %}
+                                                <div class="form-check" style="width: 100%;">
+                                                    <input class="form-check-input" type="checkbox"
+                                                                           id="formCheck" {% if line in info.current_entity %}checked{% endif %}>
+                                                    <label
+                                                    class="form-check-label" style="color: #04cce7;line-height: 20px;margin-top: 1px"><a
+                                                    class="text-break" href="{{ line }}"
+                                                    target="_blank">{{ line }}</a></label>
+                                                </div>
+                                            {% endfor %}
+                                        </form>
+                                    </div>
+
+                                    <div class="col" id="preview" style="width: 100%;height: 100%;">
+                                        <div class="d-lg-flex justify-content-lg-center align-items-lg-center"></div>
+                                    </div>
+                                </div>
+
+                            {% if not loop.last %}
+                                    <hr>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+            {% if info and info.string_mapping|default({})|length > 0 %}
+                <div class="row" id="string_area" style="margin-top: 10px;">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-1 d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center"
+                         style="background: var(--bs-gray-200);"><span style="font-size: 20px;"><strong><span
+                            style="color: rgb(123, 82, 206);">STRING</span></strong></span></div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11" style="background: var(--bs-tertiary-bg);">
+                        {% for key, value in info.string_mapping.items() %}
+
+                        <span id="string1_label" style="font-size: 20px;">{{ key }}</span>
+                            <select  class="border rounded border-3 d-lg-flex" id="string1" style="width: 95%;padding: 2px;margin: 0;color: rgb(123,82,206);">
+                            {% for label in value %}
+                            <option value="{{ label }}" {% if label in info.current_string %}selected{% endif %}>{{ label }}</option>
+                                {% endfor %}
+                        </select>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+            {% if info and info.current_number|default([])|length > 0 %}
+                <div class="row" id="number_area" style="margin-top: 10px;">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-1 d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center"
+                         style="background: var(--bs-gray-200);"><span style="font-size: 20px;"><strong><span
+                            style="color: rgb(25, 135, 84);">NUMBER</span></strong></span></div>
+                    <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11" style="background: var(--bs-tertiary-bg);">
+                        <input class="border rounded border-3" type="number" id="number" placeholder="{{ info.current_number[0] }}" min="0" step="1" pattern="\d+"
+                               style="color: rgb(25,135,84);" value="{{ info.current_number[0] }}" title="Please make sure it's an integer.">
+                    </div>
+                </div>
+            {% endif %}
+            </div>
+
+        </div>
+    {% endif %}
+
+
+    {% if info and info.templates_postprocessed|default([])|length > 0 and info.final_query_template_postprocessed|default("")|length>0 %}
+    <hr>
+        <div class="row" id="candidate_templates" style="margin-top: 20px;">
+            <div class="col"><h4 style="color: rgb(228,79,46);"><span style="color: rgb(228, 79, 46);">Candidate Templates</span>
+            </h4>
+                <ul class="list-inline" data-bs-toggle="tooltip" data-bss-tooltip="" id="template_list" style="font-size: 20px; ">
+                    {% for template_string in info.templates_postprocessed %}
+                        <li class="list-inline-item template_item" style="width: 100%;">
+                            <div>
+                                <div class="form-check" >
+                                    <input class="form-check-input" type="checkbox" id="formCheck" {% if template_string|lower == info.final_query_template_postprocessed|lower %}checked{% endif %} >
+                                    <pre class="form-check-label change-color" style="line-height: 20px;margin-top: 4px" >{{ template_string }}</pre>
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    {% endif %}
+
+        <hr>
+        <div class="row" id="predicted_sparql" style="margin-top: 20px;">
+            <div class="col"><h4 style="color: rgb(228,79,46);width: 100%;"><span style="color: rgb(228, 79, 46);">Predicted SPARQL Query</span>
+            </h4>
+                    <textarea class="bg-body-tertiary bg-gradient border rounded border-dark-subtle form-control-lg"
+                              id="input_sparql"
+                              style="width: 100%;position: relative;overflow: auto;height: auto;font-style: italic;color: #0d6efd;font-size: 20px;"
+                              name="input_sparql" placeholder="Please input your SPARQL query." cols="0"
+                              autocomplete="on" spellcheck="true" wrap="hard" data-bs-theme="light" rows="8"
+                              autofocus="">{% if info is not none and info.final_query|default("")|length > 0 %}{{ info.final_query }}{% endif %}</textarea>
+
+                    <div class="d-flex d-xl-flex justify-content-end justify-content-xl-end align-items-xl-center">
+                        <button class="btn btn-primary btn-lg border rounded" id="run"
+                                style="margin: 10px;background: rgb(228,79,46);">RUN
+                        </button>
+                    </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row" id="results" style="margin-top: 20px;">
+            <div class="col"><h4 style="color: rgb(120,59,248);">Results</h4>
+                <div id="answer_area">
+                    {% if info and info.final_answer_dict|default({})|length > 0 %}
+                        <div class="row">
+                            <div class="col">
+                                <div class="table-responsive" id="table_area">
+                                    <table class="table" id="answer_table">
+                                        <thead>
+                                            <tr>
+                                                {% for k in info.final_answer_dict.keys() %}
+                                                    <th>{{ k }}</th>
+                                                {% endfor %}
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for kk,vv in info.final_answer_dict.items() %}
+                                                {% if loop.index == 1 %}
+                                                    {% set first_list_length = vv|length %}
+                                                        {% for i in range(first_list_length) %}
+                                                            <tr>
+                                                                {% for key in info.final_answer_dict.keys() %}
+                                                                    {% set one = info.final_answer_dict[key][i] %}
+                                                                    <td>
+                                                                        {% if one is string %}
+                                                                            {% if one.startswith('https:') or one.startswith('http:') %}
+                                                                                <div class="form-check">
+                                                                                    <input class="form-check-input answer-table-checkbox" type="checkbox"/>
+                                                                                    <label class="form-check-label" style="color: #04cce7;">
+                                                                                        <a class="text-break" href="{{ one }}" target="_blank">{{ one }}</a>
+                                                                                    </label>
+                                                                                </div>
+                                                                            {% else %}
+                                                                                <span>{{ one }}</span>
+                                                                            {% endif %}
+                                                                        {% else %}
+                                                                            <span>{{ one }}</span>
+                                                                        {% endif %}
+                                                                    </td>
+                                                                {% endfor %}
+                                                            </tr>
+                                                        {% endfor %}
+                                                {% endif %}
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col" style="display: none;width: 100%;height: 100%" id="answer_preview_col">
+                                <div class="align-items-start justify-content-center" id="answer_preview" style="width: 100%;height: 100%">
+                                </div>
+                            </div>
+
+                        </div>
+                    {% else %}
+                        <span style="font-size: 20px">No valid answer for this question, please modify the SPARQL query or try another question! 😉 </span>
+                    {% endif %}
+
+                <div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer >
+    <hr>
+<div class="container" style="margin-top: 20px;">
+    <div class="row">
+        <div class="col d-lg-flex justify-content-lg-center">
+            <pre>
+The SPARQL query generation is based on:
+
+@inproceedings{DBLP:conf/semweb/0003ZRRB23,
+  author       = {Ruijie Wang and Zhiruo Zhang and Luca Rossetto and Florian Ruosch and Abraham Bernstein},
+  title        = {NLQxform: {A} Language Model-based Question to {SPARQL} Transformer},
+  booktitle    = {Joint Proceedings of Scholarly {QALD} 2023 and SemREC 2023 co-located
+                  with 22nd International Semantic Web Conference {ISWC} 2023, Athens,
+                  Greece, November 6-10, 2023},
+  series       = { {CEUR} Workshop Proceedings},
+  volume       = {3592},
+  publisher    = {CEUR-WS.org},
+  year         = {2023},
+  url          = {https://ceur-ws.org/Vol-3592/paper2.pdf},
+}
+            </pre>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="text-align: center;">
+            <a href="https://github.com/ruijie-wang-uzh/NLQxform-UI" target="_blank" style="width: 100%;text-align: center;">Source code of this natural language interface.</a>
+            <p class="text-center text-muted copyright" style="width: 100%;">Copyright © <a href="https://www.ifi.uzh.ch/en/ddis.html" target="_blank">DDIS UZH</a> 2024</p>
+        </div>
+    </div>
+
+</div>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        document.getElementById('ask').addEventListener('click', function () {
+            document.getElementById('loading_container').style.display = 'block';
+            document.getElementById('intermediate_outputs').style.display = 'none';
+            this.setAttribute('disabled', 'true');
+            document.forms[0].submit();
+        });
+
+        var runButton = document.getElementById('run');
+        var newAnswer=[];
+        var newAnswerDict={};
+        if (runButton) {
+            runButton.addEventListener('click', function() {
+                this.setAttribute('disabled', 'true');
+
+                fetch('/run_query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ input_sparql_value: document.getElementById('input_sparql').value }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.updated_query && data.updated_query.length > 0){
+                        if (data.final_answer){
+                            document.getElementById('input_sparql').value=data.updated_query;
+                            newAnswer=data.final_answer;
+                            newAnswerDict=data.final_answer_dict;
+                            updateAnswerArea();
+                            show_answer_preview();
+                        }else{
+                            document.getElementById('answer_area').innerHTML='';
+                            alert('SORRY THAT AN ERROR OCCURRED, PLEASE TRY AGAIN!')
+                        }
+                    }else{
+                        document.getElementById('answer_area').innerHTML='';
+                        alert('PLEASE DO NOT INPUT EMPTY STRINGS!')
+                    }
+                })
+                .catch(error => {
+                    console.error("Error updating backend:", error);
+                });
+
+                this.removeAttribute('disabled');
+
+            });
+        }
+        function updateAnswerArea() {
+            var answerArea = document.getElementById('answer_area');
+            if (answerArea) {
+                answerArea.innerHTML = '';
+                var newRow = document.createElement('div');
+                var newColumn=document.createElement('div');
+                var newTableArea=document.createElement('div')
+                newRow.className='row'
+                newColumn.className = 'col';
+                newTableArea.className='table-responsive';
+
+                if (Object.keys(newAnswerDict).length > 0) {
+                    var newTable = document.createElement('table');
+                    newTable.className = 'table';
+                    newTable.id = 'answer_table';
+
+                    var thead = document.createElement('thead');
+                    var headerRow = document.createElement('tr');
+                    for (var onekey in newAnswerDict) {
+                        var th = document.createElement('th');
+                        th.textContent = onekey;
+                        headerRow.appendChild(th);
+                    }
+                    thead.appendChild(headerRow);
+                    newTable.appendChild(thead);
+
+                    var tbody = document.createElement('tbody');
+                    var link_in_answer=false;
+                    var span = document.createElement('span');
+                    for (var i = 0; i < newAnswerDict[Object.keys(newAnswerDict)[0]].length; i++) {
+                        var tr = document.createElement('tr');
+                        for (var key in newAnswerDict) {
+                            var td = document.createElement('td');
+                            if (typeof newAnswerDict[key][i] === 'string') {
+                                if (newAnswerDict[key][i].startsWith('https:') || newAnswerDict[key][i].startsWith('http:')) {
+                                    var div = document.createElement('div');
+                                    div.className = 'form-check';
+                                    var checkbox = document.createElement('input');
+                                    checkbox.className = 'form-check-input answer-table-checkbox';
+                                    checkbox.type = 'checkbox';
+                                    if (!link_in_answer) {
+                                        checkbox.checked = true;
+                                        link_in_answer=true;
+                                    }
+                                    var label = document.createElement('label');
+                                    label.className = 'form-check-label';
+                                    label.style.color = '#04cce7';
+                                    var link = document.createElement('a');
+                                    link.className = 'text-break';
+                                    link.href = newAnswerDict[key][i];
+                                    link.target = '_blank';
+                                    link.textContent = newAnswerDict[key][i];
+
+                                    label.appendChild(link);
+                                    div.appendChild(checkbox);
+                                    div.appendChild(label);
+                                    td.appendChild(div);
+                                } else {
+                                    td.innerHTML = `<span>${newAnswerDict[key][i]}</span>`;
+                                }
+                            } else {
+                                    td.innerHTML = `<span>${newAnswerDict[key][i]}</span>`;
+                            }
+                            tr.appendChild(td);
+                        }
+                        tbody.appendChild(tr);
+                    }
+                    newTable.appendChild(tbody);
+                    newTableArea.appendChild(newTable);
+                    newColumn.appendChild(newTableArea);
+                    newRow.appendChild(newColumn);
+                    if (link_in_answer){
+                        var previewCol = document.createElement('div');
+                        previewCol.className = 'col';
+                        previewCol.id = 'answer_preview_col';
+                        previewCol.style.display = 'flex';
+                        previewCol.style.width = '100%';
+                        previewCol.style.height = '100%';
+
+                        var previewDiv=document.createElement('div');
+                        previewDiv.id = 'answer_preview';
+                        previewDiv.className='align-items-start justify-content-center';
+                        previewDiv.style.width = '100%';
+                        previewDiv.style.height = '100%';
+
+                        previewCol.appendChild(previewDiv)
+                        newRow.appendChild(previewCol);
+                    }
+                    answerArea.appendChild(newRow);
+                }
+                else {
+                    var noAnswerMessage = document.createElement('span');
+                    noAnswerMessage.style.fontSize = '20px';
+                    noAnswerMessage.textContent = 'No valid answer for this question, please modify the SPARQL query or try another question! 😉 ';
+                    answerArea.appendChild(noAnswerMessage);
+                }
+            }
+        }
+
+        {#template#}
+        document.querySelectorAll("#template_list li").forEach((function (li) {
+        li.querySelector("input").addEventListener("change", (function () {
+            li.querySelector("input").checked = !0, cbs = li.closest("ul").querySelectorAll("input");
+            cbs.forEach((function (t) {
+                t !== li.querySelector("input") && (t.checked = !1)
+            }))
+            cbs.forEach((function (t) {
+                if (t.checked) {
+                    var selectedValue = t.closest('.form-check').querySelector('pre').textContent;
+                    fetch('/update_template', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ chosen_template: selectedValue }),
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.updated_query){
+                            document.getElementById('input_sparql').value = data.updated_query;
+                        }else{
+                            alert('SORRY THAT AN ERROR OCCURRED, PLEASE TRY AGAIN!')
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error sending data to the backend:', error);
+                    });
+                }
+            }))
+        }))
+    }));
+
+        {#number#}
+        var numberInput = document.getElementById('number');
+        if (numberInput) {
+            numberInput.addEventListener('change', function() {
+                {#console.log("change on ",numberInput)#}
+                var updatedValue = numberInput.value;
+                fetch('/update_number', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ new_number_value: updatedValue }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.updated_query){
+                        document.getElementById('input_sparql').value = data.updated_query;
+                        numberInput.value=data.updated_number;
+                    }else{
+                        alert('SORRY THAT AN ERROR OCCURRED, PLEASE TRY AGAIN!')
+                    }
+                })
+                .catch(error => {
+                    console.error("Error updating backend:", error);
+                });
+            });
+        }
+
+        {#string#}
+        document.querySelectorAll("#string_area select").forEach((function (s) {
+            s.addEventListener("change", (function () {
+                var string_label=s.parentNode.querySelector("span").textContent
+                var selectedValue =s.value;
+                fetch('/update_string', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ string_label: string_label,selectedValue:selectedValue }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.updated_query){
+                        document.getElementById('input_sparql').value = data.updated_query;
+                        {#console.log("updating input sparql to: ",data.updated_query);#}
+                    }else{
+                        alert('SORRY THAT AN ERROR OCCURRED, PLEASE TRY AGAIN!')
+                    }
+                })
+                .catch(error => {
+                    console.error('Error sending data to the backend:', error);
+                });
+            }))
+         }));
+
+        {#topic#}
+        if (document.querySelector("#information_dictionary")){
+            document.querySelector("#information_dictionary").querySelectorAll("form").forEach((function (f) {
+            checkboxes = f.querySelectorAll(".form-check-input"), checkboxes.forEach((function (e) {
+                if (e.checked) {
+                    link = e.parentNode.querySelector("a").textContent, preview = e.closest("form").parentNode.nextElementSibling.querySelector("div");
+                    var t = document.createElement("iframe");
+                    t.src = link + "#headline", t.width = "100%", t.height = "300px", preview.innerHTML = "", preview.appendChild(t)
+                }
+                e.addEventListener("change", (function () {
+                    {#console.log("change on ",e);#}
+                    e.checked = !0;
+                    checkboxes = e.closest("form").querySelectorAll(".form-check-input");
+                    checkboxes.forEach((function (t) {
+                        t !== e && (t.checked = !1)
+                    }));
+                    link = e.parentNode.querySelector("a").textContent, preview = e.closest("form").parentNode.nextElementSibling.querySelector("div");
+                    var t = document.createElement("iframe");
+                    t.src = link + "#headline", t.width = "100%", t.height = "300px", preview.innerHTML = "", preview.appendChild(t)
+
+                    topic_label=e.closest('.row').querySelector('span').textContent
+                    topic_value = e.parentNode.querySelector("a").textContent
+
+                    fetch('/update_entity', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({topic_label: topic_label, topic_value: topic_value}),
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.updated_query){
+                                document.getElementById('input_sparql').value = data.updated_query;
+                            }else{
+                                alert('SORRY THAT AN ERROR OCCURRED, PLEASE TRY AGAIN!')
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error sending data to the backend:', error);
+                        });
+                }))
+            }));
+         }));
+        };
+
+        {#answer table preview#}
+        function show_answer_preview(){
+            if (document.querySelector("#answer_table")){
+                var answer_checkboxes=document.querySelector("#answer_table").querySelectorAll(".answer-table-checkbox");
+                var noCheckboxChecked = true;
+
+                answer_checkboxes.forEach((function (e) {
+                    if (e.checked) {
+                        noCheckboxChecked = false;
+                        document.querySelector("#answer_preview_col").style.display="flex";
+                        if (document.querySelector("#answer_preview")){
+                            link = e.parentNode.querySelector("a").textContent;
+                            preview = document.querySelector("#answer_preview");
+                            var t = document.createElement("iframe");
+                            t.src = link + "#headline", t.width = "100%", t.height = "500px", preview.innerHTML = "", preview.appendChild(t)
+                        }
+                    }
+
+                    if (noCheckboxChecked && answer_checkboxes.length > 0) {
+                        answer_checkboxes[0].checked = true;
+                        document.querySelector("#answer_preview_col").style.display="flex";
+                        if (document.querySelector("#answer_preview")){
+                            link = answer_checkboxes[0].parentNode.querySelector("a").textContent;
+                            preview = document.querySelector("#answer_preview");
+                            var t = document.createElement("iframe");
+                            t.src = link + "#headline", t.width = "100%", t.height = "500px", preview.innerHTML = "", preview.appendChild(t)
+                        }
+                    }
+
+                    e.addEventListener("change", (function () {
+                        e.checked = !0;
+                        answer_checkboxes.forEach((function (t) {
+                            t !== e && (t.checked = !1)
+                        }));
+                        if (document.querySelector("#answer_preview")) {
+                            link = e.parentNode.querySelector("a").textContent;
+                            preview = document.querySelector("#answer_preview");
+                            var t = document.createElement("iframe");
+                            t.src = link + "#headline", t.width = "100%", t.height = "500px", preview.innerHTML = "", preview.appendChild(t)
+                        }
+                    }))
+                }));
+            }
+        }
+        show_answer_preview();
+
+        {#change color#}
+        function applyColorFormatting(sparql) {
+            sparql=sparql.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+            const variableRegex = /\?(secondanswer|firstanswer|answer|count|x|y|z)/g;
+            const keywordRegex = /(SELECT|DISTINCT|WHERE|ASK|OPTIONAL|GROUP|COUNT|ORDER|LIMIT|OFFSET|MIN|MAX|AVG|UNION|FILTER|NOT|EXISTS|AS|BY|DESC|ASC|BIND|IF|&lt;xiaoyu&gt;|&lt;dayu&gt;|&lt;is_int&gt;|&lt;within&gt;|&lt;isnot&gt;|GROUP_CONCAT|&lt;comma_sep&gt;|&lt;comma&gt;|&lt;dot&gt;)/g;
+            const stringNumberRegex = /(STRING1|STRING2|&lt;num&gt;)/g;
+            const entityRelationRegex = /(&lt;topic1&gt;|&lt;topic2&gt;|&lt;topic3&gt;|&lt;authoredBy&gt;|&lt;wikidata&gt;|&lt;primaryAffiliation&gt;|&lt;webpage&gt;|&lt;yearOfPublication&gt;|&lt;publishedIn&gt;|&lt;title&gt;|&lt;numberOfCreators&gt;|&lt;orcid&gt;|&lt;bibtexType&gt;|&lt;Article&gt;|&lt;Inproceedings&gt;)/g;
+
+            sparql = sparql.replace(variableRegex, '<span class="green-text">$&</span>');
+            sparql = sparql.replace(keywordRegex, '<span class="red-text">$&</span>');
+            sparql = sparql.replace(stringNumberRegex, '<span class="yellow-text">$&</span>');
+            sparql = sparql.replace(entityRelationRegex, '<span class="blue-text">$&</span>');
+            return sparql;
+
+        }
+        document.querySelectorAll('.change-color').forEach(preElement => {
+            let sparqlContent = preElement.innerText;
+            sparqlContent = applyColorFormatting(sparqlContent);
+            preElement.innerHTML = sparqlContent;
+        });
+
+    });
+
+
+</script>
+
+<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+<script src="../static/js/script.min.js"></script>
+
+{% if alert %}
+    <script>
+        alert("{{ alert }}");
+    </script>
+{% endif %}
+
+{% if curse_to %}
+    <script>
+        document.getElementById('{{ curse_to }}').scrollIntoView({ behavior: 'smooth' });
+    </script>
+{% endif %}
+
+
+</body>
+</html>

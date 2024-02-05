@@ -1,0 +1,2502 @@
+[
+ {
+  "id": "Q0001",
+  "question": "What is the ORCID of the person Mitsunori Ogihara?",
+  "paraphrase": "What is the ORCID of the author Mitsunori Ogihara?"
+ },
+ {
+  "id": "Q0002",
+  "question": "Find the primary affiliation of Tatiana Tommasi.",
+  "paraphrase": "Tatiana Tommasi is primarily affiliated to which institution?"
+ },
+ {
+  "id": "Q0003",
+  "question": "Which publications did R. Clay Sprowls write?",
+  "paraphrase": "What are the publications written by the author R. Clay Sprowls?"
+ },
+ {
+  "id": "Q0004",
+  "question": "What are the papers written by the person Zhang, Xinru?",
+  "paraphrase": "Which publications did Zhang, Xinru author?"
+ },
+ {
+  "id": "Q0005",
+  "question": "Mention the ORCID of the researcher Lea, Chin-Tau A..",
+  "paraphrase": "What is the ORCID of the author Chin-Tau A. Lea?"
+ },
+ {
+  "id": "Q0006",
+  "question": "The author George A. Vouros is primarily affiliated to which institution?",
+  "paraphrase": "Mention the primary affiliation of George A. Vouros."
+ },
+ {
+  "id": "Q0007",
+  "question": "What are the papers written by the person schraefel, m. c.?",
+  "paraphrase": "Which publications did m. c. schraefel author?"
+ },
+ {
+  "id": "Q0008",
+  "question": "What is the ORCID of Suhaidi Hassan?",
+  "paraphrase": "What is the ORCID of the author Suhaidi Hassan?"
+ },
+ {
+  "id": "Q0009",
+  "question": "What are the papers written by the person Olugbemiga Solomon Popoola?",
+  "paraphrase": "Which papers did the author Olugbemiga S. Popoola write?"
+ },
+ {
+  "id": "Q0010",
+  "question": "Which papers did the author Ji-Ming Lin write?",
+  "paraphrase": "What are the publications written by the author J. Lin?"
+ },
+ {
+  "id": "Q0014",
+  "question": "Which publications did M. Oguz Sunay write?",
+  "paraphrase": "What are the publications written by the author Sunay, M. Oguz?"
+ },
+ {
+  "id": "Q0016",
+  "question": "What are the papers written by the person Sandor M. Veres?",
+  "paraphrase": "Which publications did Sandor M. Veres author?"
+ },
+ {
+  "id": "Q0017",
+  "question": "What are the papers written by Eric B. Decker?",
+  "paraphrase": "Which papers did the author Eric B. Decker write?"
+ },
+ {
+  "id": "Q0018",
+  "question": "Find the primary affiliation of Steve Benford.",
+  "paraphrase": "Mention the primary affiliation of Steve Benford."
+ },
+ {
+  "id": "Q0019",
+  "question": "What are the publications written by the author Ernesto Segredo-Otero?",
+  "paraphrase": "Which papers did the author Ernesto Segredo-Otero write?"
+ },
+ {
+  "id": "Q0021",
+  "question": "What are the papers written by the person Bhargava, Vijay K.?",
+  "paraphrase": "What are the publications written by the author Bhargava, Vijay K.?"
+ },
+ {
+  "id": "Q0025",
+  "question": "What are the papers written by Chrysostomos Marasinou?",
+  "paraphrase": "Which papers did the author Marasinou, Chrysostomos write?"
+ },
+ {
+  "id": "Q0027",
+  "question": "Mention the ORCID of the researcher James J. Nutaro.",
+  "paraphrase": "What is the ORCID of the author J. J. Nutaro?"
+ },
+ {
+  "id": "Q0028",
+  "question": "What is the Wikidata ID of Krstic, Miroslav?",
+  "paraphrase": "Mention the Wikidata identifier of the researcher Miroslav Krstic."
+ },
+ {
+  "id": "Q0029",
+  "question": "Mention the webpage of the researcher Yap, Chee-Keng.",
+  "paraphrase": "What is the webpage of the person Yap, Chee-Keng?"
+ },
+ {
+  "id": "Q0030",
+  "question": "What is the webpage of Marc Ericson C. Santos?",
+  "paraphrase": "What is the webpage of the person Marc Ericson C. Santos?"
+ },
+ {
+  "id": "Q0032",
+  "question": "What are the papers written by the person Maurits Ortmanns?",
+  "paraphrase": "Which publications did Maurits Ortmanns write?"
+ },
+ {
+  "id": "Q0033",
+  "question": "Which publications did Suzuki, Youhei write?",
+  "paraphrase": "Which papers did the author Suzuki, Youhei write?"
+ },
+ {
+  "id": "Q0035",
+  "question": "What are the papers written by the person Celesti, Antonio?",
+  "paraphrase": "What are the publications written by the author Antonio Celesti?"
+ },
+ {
+  "id": "Q0036",
+  "question": "What is the ORCID of the person Gheorghe Cosmin Silaghi?",
+  "paraphrase": "Mention the ORCID of the researcher Silaghi, Gheorghe Cosmin."
+ },
+ {
+  "id": "Q0037",
+  "question": "What is the primary affiliation of Genev\\u00E8s, P.?",
+  "paraphrase": "The author Pierre Genev\\u00E8s is primarily affiliated to which institution?"
+ },
+ {
+  "id": "Q0038",
+  "question": "Which publications did Boonsri Kaewkham-ai author?",
+  "paraphrase": "Which publications did Boonsri Kaewkham-ai write?"
+ },
+ {
+  "id": "Q0039",
+  "question": "What are the publications written by the author Liang, Yingbin?",
+  "paraphrase": "Which publications did Yingbin Liang author?"
+ },
+ {
+  "id": "Q0040",
+  "question": "What are the publications written by the author Tjeng Thiang Tjhung?",
+  "paraphrase": "Which papers did the author Tjeng T. Tjhung write?"
+ },
+ {
+  "id": "Q0041",
+  "question": "Mention the ORCID of the researcher Monteiro, Edmundo.",
+  "paraphrase": "What is the ORCID of Monteiro, Edmundo?"
+ },
+ {
+  "id": "Q0042",
+  "question": "Mention the Wikidata identifier of the researcher Gabor T. Herman.",
+  "paraphrase": "The author Herman, G. T. is associated with which Wikidata identifier?"
+ },
+ {
+  "id": "Q0043",
+  "question": "What is the primary affiliation of Schober, Robert?",
+  "paraphrase": "The author Robert Schober is primarily affiliated to which institution?"
+ },
+ {
+  "id": "Q0045",
+  "question": "What are the publications written by the author Krishnaswamy, Smita?",
+  "paraphrase": "What are the papers written by Krishnaswamy, Smita?"
+ },
+ {
+  "id": "Q0047",
+  "question": "Which publications did Kristian L. McDonald author?",
+  "paraphrase": "Which publications did Kristian L. McDonald write?"
+ },
+ {
+  "id": "Q0048",
+  "question": "What are the papers written by the person Linghu, Yuan?",
+  "paraphrase": "Which publications did Linghu, Yuan write?"
+ },
+ {
+  "id": "Q0049",
+  "question": "What is the primary affiliation of Johan de Kleer?",
+  "paraphrase": "Mention the primary affiliation of Johan d. Kleer."
+ },
+ {
+  "id": "Q0050",
+  "question": "What is the webpage of Lakhotia, A.?",
+  "paraphrase": "What is the webpage of the person Arun Lakhotia?"
+ },
+ {
+  "id": "Q0054",
+  "question": "Mention the co-authors of Will N. Browne.",
+  "paraphrase": "List the co-authors of Will N. Browne."
+ },
+ {
+  "id": "Q0055",
+  "question": "Which papers did Thanasis L. and Koziri, Maria G. write together?",
+  "paraphrase": "What are the papers written by Thanasis L. and Maria G. Koziri together?"
+ },
+ {
+  "id": "Q0056",
+  "question": "Which papers did Guo-Wei Wei and D. Duy Nguyen write together?",
+  "paraphrase": "What are the publications written by the authors Guo-Wei Wei and Duc Duy Nguyen in collaboration?"
+ },
+ {
+  "id": "Q0058",
+  "question": "With which other authors has the author Hiromichi Kameya written papers?",
+  "paraphrase": "Who are the co-authors of Hiromichi Kameya?"
+ },
+ {
+  "id": "Q0059",
+  "question": "Which papers did Vidgen, Richard T. publish in HICSS?",
+  "paraphrase": "In HICSS, which papers did the author Vidgen, Richard T. publish?"
+ },
+ {
+  "id": "Q0060",
+  "question": "Which papers did the author Thomas Behr publish in the last three years?",
+  "paraphrase": "List the papers published by T. Behr in the last 3 years."
+ },
+ {
+  "id": "Q0061",
+  "question": "What are the venues in which Trahan, Robin published?",
+  "paraphrase": "In which conferences or journals has Trahan, Robin published papers?"
+ },
+ {
+  "id": "Q0062",
+  "question": "Which paper written by Zadeh, M. Hosseini with Sean McNulty was published in IEEE Conference on Systems, Man and Cybernetics?",
+  "paraphrase": "Find the paper written by Zadeh, M. Hosseini with S. McNulty that was published in SMC."
+ },
+ {
+  "id": "Q0063",
+  "question": "What research papers did Jason B. Thatcher publish with the author affiliated to Temple University, Philadelphia, PA, USA?",
+  "paraphrase": "List the papers published by Jason Bennett Thatcher with the author from Temple University."
+ },
+ {
+  "id": "Q0064",
+  "question": "In IEEE Trans. Commun., which paper written by D. V. Truhachev with Axel Huebner was published?",
+  "paraphrase": "Which paper written by Dmitri V. Truhachev with Huebner, A. was published in IEEE Trans. Commun.?"
+ },
+ {
+  "id": "Q0067",
+  "question": "List the papers published by Khalasi, Gaurangkumar in CUBE.",
+  "paraphrase": "What publications did Gaurangkumar Khalasi publish in CUBE?"
+ },
+ {
+  "id": "Q0068",
+  "question": "Mention the paper written by Young-Chan Kim with Sam-Taek Kim that was published in PDPTA.",
+  "paraphrase": "Find the paper written by Young-Chan Kim with Sam-Taek Kim that was published in PDPTA."
+ },
+ {
+  "id": "Q0069",
+  "question": "Which paper written by Ali Dehghantanha with Kim-Kwang Raymond Choo was published in TrustCom/BigDataSE?",
+  "paraphrase": "In TrustCom/BigDataSE, which paper written by Ali Dehghantanha with Kim-Kwang R. Choo was published?"
+ },
+ {
+  "id": "Q0070",
+  "question": "Mention the papers published by Georgios C. Sirakoulis with the author from Dimokrition Panepistimion Thrakis, Komotini, Greece.",
+  "paraphrase": "List the papers published by Georgios C. Sirakoulis with the author from Dimokrition Panepistimion Thrakis."
+ },
+ {
+  "id": "Q0071",
+  "question": "List the papers published by Am\\u00E9lie Gheerbrant in the last 7 years.",
+  "paraphrase": "Which papers did Am\\u00E9lie Gheerbrant publish in the last seven years?"
+ },
+ {
+  "id": "Q0072",
+  "question": "List the papers published by M. Nizam Kabir in the last eight years.",
+  "paraphrase": "Which papers did the author M. Nizam Kabir publish in the last eight years?"
+ },
+ {
+  "id": "Q0073",
+  "question": "In the last four years, which papers did Seyed Mostafa Safdarnejad publish?",
+  "paraphrase": "Which papers did the author Seyed Mostafa Safdarnejad publish in the last 4 years?"
+ },
+ {
+  "id": "Q0074",
+  "question": "In the last six years, which papers did Malrey Lee publish?",
+  "paraphrase": "Which papers did Malrey Lee publish in the last 6 years?"
+ },
+ {
+  "id": "Q0075",
+  "question": "In International Conference on Advanced Information Networking and Applications, which papers did Durresi, Arjan publish?",
+  "paraphrase": "List the papers published by Arjan Durresi in International Conference on Advanced Information Networking and Applications."
+ },
+ {
+  "id": "Q0076",
+  "question": "Which papers did Choi, Seongjin publish in ITSC?",
+  "paraphrase": "In ITSC, which papers did Choi, Seongjin publish?"
+ },
+ {
+  "id": "Q0077",
+  "question": "What are the publications written by the authors Rebecca Swords and Lucja Kot in collaboration?",
+  "paraphrase": "Which papers did the authors R. Swords and Kot, L. co-write?"
+ },
+ {
+  "id": "Q0078",
+  "question": "With which other authors has the author Yogatama, Dani written papers?",
+  "paraphrase": "Mention the co-authors of Dani Yogatama."
+ },
+ {
+  "id": "Q0080",
+  "question": "List the co-authors of P. Smaragdis.",
+  "paraphrase": "Mention the co-authors of Paris Smaragdis."
+ },
+ {
+  "id": "Q0081",
+  "question": "Which publications did Paul P. Sotiriadis write with the author from National Technical University of Athens?",
+  "paraphrase": "What research papers did Paul P. Sotiriadis publish with the author affiliated to National Technical University of Athens?"
+ },
+ {
+  "id": "Q0083",
+  "question": "Find the paper written by Zhiguo Yang with Sudharshan, D. that was published in Expert Syst. Appl..",
+  "paraphrase": "In Expert Syst. Appl., which paper written by Zhiguo Yang with Sudharshan, D. was published?"
+ },
+ {
+  "id": "Q0085",
+  "question": "In which conferences or journals has Jiman Jeong published papers?",
+  "paraphrase": "What are the venues in which J. Jeong published?"
+ },
+ {
+  "id": "Q0086",
+  "question": "Find the papers written by Huang, Bert and Elaheh Raisi together.",
+  "paraphrase": "What are the publications written by the authors Bert Huang and E. Raisi in collaboration?"
+ },
+ {
+  "id": "Q0087",
+  "question": "Which papers did the authors R. Sivagami and X. Zhi Gao co-write?",
+  "paraphrase": "Find the papers written by R. Sivagami and Xiao Zhi Gao together."
+ },
+ {
+  "id": "Q0090",
+  "question": "In IEICE Trans. Fundam. Electron. Commun. Comput. Sci., which papers did Goro Yamauchi publish?",
+  "paraphrase": "In IEICE Trans. Fundam. Electron. Commun. Comput. Sci., which papers did the author Goro Y. publish?"
+ },
+ {
+  "id": "Q0091",
+  "question": "Which papers did Max Q.-H. Meng publish in the last 9 years?",
+  "paraphrase": "In the last 9 years, which papers did M. Q.-H. Meng publish?"
+ },
+ {
+  "id": "Q0092",
+  "question": "Mention the venues in which Jurgen J. Vinju published.",
+  "paraphrase": "Which venues has Jurgen J. Vinju published in?"
+ },
+ {
+  "id": "Q0093",
+  "question": "Find the papers written by Clerckx, Bruno and Hao, Chenxi together.",
+  "paraphrase": "What are the publications written by the authors Clerckx, Bruno and Hao, Chenxi in collaboration?"
+ },
+ {
+  "id": "Q0094",
+  "question": "List the co-authors of Seong-O Shim.",
+  "paraphrase": "With which other authors has Seong-O Shim written papers?"
+ },
+ {
+  "id": "Q0095",
+  "question": "List the papers published by Shivkumar Kalyanaraman with the author from Rensselaer Polytechnic Institute, Troy, USA.",
+  "paraphrase": "Mention the papers published by Kalyanaraman, Shivkumar with the author from Rensselaer Polytechnic Institute, Troy, USA."
+ },
+ {
+  "id": "Q0096",
+  "question": "List the papers published by Pavel Ircing in the last 3 years.",
+  "paraphrase": "In the last 3 years, which papers did Pavel I. publish?"
+ },
+ {
+  "id": "Q0097",
+  "question": "Which papers did K. Oliver Arras and Nejat, Goldie write together?",
+  "paraphrase": "Which papers did the authors K. Oliver Arras and Nejat, Goldie co-write?"
+ },
+ {
+  "id": "Q0098",
+  "question": "Which publications did Katsuhiko Shirai write with the author from Waseda University?",
+  "paraphrase": "Mention the papers published by Katsuhiko Shirai with the author from Waseda University."
+ },
+ {
+  "id": "Q0100",
+  "question": "Mention the papers published by Baroni, M. with the author from University of Trento.",
+  "paraphrase": "Which publications did Baroni, M. write with the author from University of Trento?"
+ },
+ {
+  "id": "Q0101",
+  "question": "What are the titles of the papers that Saad Noor Mohammad published and in which venues?",
+  "paraphrase": "List the titles of the papers that Saad Noor Mohammad published and in which venues."
+ },
+ {
+  "id": "Q0102",
+  "question": "With which other authors has Haowei Yuan co-authored papers in the last 3 years and where are they affiliated?",
+  "paraphrase": "Name the co-authors of Haowei Yuan in the last 3 years and where are they affiliated?"
+ },
+ {
+  "id": "Q0105",
+  "question": "Mention the other authors with whom Mingsheng Long has co-authored papers in the last 5 years and where are they affiliated.",
+  "paraphrase": "List the co-authors of Mingsheng Long in the last 5 years and where are they affiliated."
+ },
+ {
+  "id": "Q0107",
+  "question": "Mention the papers published by Weihai Li and in which year.",
+  "paraphrase": "Which papers did author W. Li publish and in which year?"
+ },
+ {
+  "id": "Q0109",
+  "question": "What are the titles of the papers that Reem I. Masoud published and in which venues?",
+  "paraphrase": "In which venues did Reem I. Masoud publish papers and what are the titles of these papers?"
+ },
+ {
+  "id": "Q0110",
+  "question": "Mention the other authors with whom Gozde B. Akar has co-authored papers in the last four years and where are they affiliated.",
+  "paraphrase": "Name the co-authors of Gozde Bozdagi Akar in the last 4 years and where are they affiliated?"
+ },
+ {
+  "id": "Q0112",
+  "question": "List the titles of the papers that Marcus A. Neumann published and in which venues.",
+  "paraphrase": "In which venues did the author Marcus A. Neumann publish papers and what are the titles of these papers?"
+ },
+ {
+  "id": "Q0113",
+  "question": "What are the titles of the papers that the author LaPre, A. K. published in the last 6 years and in which venues?",
+  "paraphrase": "List the venues in which Andrew K. LaPre published papers in the last six years and the titles of these papers."
+ },
+ {
+  "id": "Q0114",
+  "question": "Name the co-authors of Novick, Y. in the last 9 years and where are they affiliated?",
+  "paraphrase": "With which other authors has Yitzchak Novick co-authored papers in the last 9 years and where are they affiliated?"
+ },
+ {
+  "id": "Q0115",
+  "question": "List the co-authors of Tadano, Kumiko in the last five years and where are they affiliated.",
+  "paraphrase": "Who are the co-authors of Tadano, Kumiko in the last 5 years and where are they affiliated?"
+ },
+ {
+  "id": "Q0116",
+  "question": "In which venues did the author Vedran Bilas publish papers and what are the titles of these papers?",
+  "paraphrase": "What are the titles of the papers that Vedran Bilas published and in which venues?"
+ },
+ {
+  "id": "Q0117",
+  "question": "Mention the papers published by I. Papamichail and in which year.",
+  "paraphrase": "Which publications did Ioannis Papamichail author and in which year?"
+ },
+ {
+  "id": "Q0120",
+  "question": "Mention the papers published by Shanmughaneethi, V. and in which year.",
+  "paraphrase": "Which publications did Shanmughaneethi, V. author and in which year?"
+ },
+ {
+  "id": "Q0121",
+  "question": "Which publications did Thomas Leo McCluskey author and in which year?",
+  "paraphrase": "Mention the papers published by Thomas Leo McCluskey and in which year."
+ },
+ {
+  "id": "Q0122",
+  "question": "Who are the co-authors of Pavel Surynek and where are they affiliated?",
+  "paraphrase": "List the co-authors of Surynek, P. and where are they affiliated."
+ },
+ {
+  "id": "Q0123",
+  "question": "In which venues did the author Kmimech, Mourad publish papers in the last nine years and what are the titles of these papers?",
+  "paraphrase": "What are the titles of the papers that the author Kmimech, Mourad published in the last 9 years and in which venues?"
+ },
+ {
+  "id": "Q0124",
+  "question": "In which venues did the author A. Tarek Farag publish papers and what are the titles of these papers?",
+  "paraphrase": "What are the titles of the papers that the author Abdullah Tarek Farag published and in which venues?"
+ },
+ {
+  "id": "Q0125",
+  "question": "What are the titles of the papers that the author Cambone, Marie published in the last 6 years and in which venues?",
+  "paraphrase": "What are the titles of the papers that Marie Cambone published in the last 6 years and in which venues?"
+ },
+ {
+  "id": "Q0126",
+  "question": "Mention the papers published by J\\u00FCrgen H\\u00FClsemann and in which year.",
+  "paraphrase": "Which papers did author J\\u00FCrgen H. publish and in which year?"
+ },
+ {
+  "id": "Q0128",
+  "question": "List the titles of the papers that Strenzke, Falko published in the last 7 years and in which venues.",
+  "paraphrase": "In which venues did the author Falko Strenzke publish papers in the last 7 years and what are the titles of these papers?"
+ },
+ {
+  "id": "Q0131",
+  "question": "Which publications did Woodman, Mark author and in which year?",
+  "paraphrase": "Mention the papers published by Mark Woodman and in which year."
+ },
+ {
+  "id": "Q0132",
+  "question": "Who are the co-authors of Alexandre Meyer in the last 2 years and where are they affiliated?",
+  "paraphrase": "Mention the other authors with whom Meyer, Alexandre has co-authored papers in the last two years and where are they affiliated."
+ },
+ {
+  "id": "Q0134",
+  "question": "List the titles of the papers that Stefan Eickeler published and in which venues.",
+  "paraphrase": "What are the titles of the papers that the author S. Eickeler published and in which venues?"
+ },
+ {
+  "id": "Q0136",
+  "question": "In which venues did Felipe S. Abrah\\u00E3o publish papers in the last 8 years and what are the titles of these papers?",
+  "paraphrase": "What are the titles of the papers that Felipe S. Abrah\\u00E3o published in the last eight years and in which venues?"
+ },
+ {
+  "id": "Q0137",
+  "question": "Who are the co-authors of N. Ole Salscheider and where are they affiliated?",
+  "paraphrase": "Name the co-authors of Niels Ole Salscheider and where are they affiliated?"
+ },
+ {
+  "id": "Q0138",
+  "question": "Mention the papers published by Anastasios G. Bakirtzis and in which year.",
+  "paraphrase": "List the papers published by Anastasios G. Bakirtzis and in which year."
+ },
+ {
+  "id": "Q0139",
+  "question": "List the papers published by Guo, Yike and in which year.",
+  "paraphrase": "What are the papers published by Guo, Yike and in which year?"
+ },
+ {
+  "id": "Q0140",
+  "question": "What are the titles of the papers that Siyuan Xiang published in the last five years and in which venues?",
+  "paraphrase": "What are the titles of the papers that the author Siyuan Xiang published in the last five years and in which venues?"
+ },
+ {
+  "id": "Q0142",
+  "question": "Which publications did Marcel Morisse author and in which year?",
+  "paraphrase": "What are the papers published by Morisse, M. and in which year?"
+ },
+ {
+  "id": "Q0143",
+  "question": "Mention the other authors with whom A. F. J. van Raan has co-authored papers in the last eight years and where are they affiliated.",
+  "paraphrase": "List the co-authors of A. F. J. van Raan in the last 8 years and where are they affiliated."
+ },
+ {
+  "id": "Q0145",
+  "question": "Which publications did Francesco Mapelli author and in which year?",
+  "paraphrase": "List the papers published by Francesco Mapelli and in which year."
+ },
+ {
+  "id": "Q0146",
+  "question": "What are the titles of the papers that the author Keerthiraj Nagaraj published in the last 2 years and in which venues?",
+  "paraphrase": "What are the titles of the papers that Keerthiraj Nagaraj published in the last two years and in which venues?"
+ },
+ {
+  "id": "Q0147",
+  "question": "With which other authors has Xiaojie Yuan co-authored papers in the last 2 years and where are they affiliated?",
+  "paraphrase": "Who are the co-authors of Xiaojie Yuan in the last 2 years and where are they affiliated?"
+ },
+ {
+  "id": "Q0148",
+  "question": "With which other authors has Henk Jan Bergveld co-authored papers in the last nine years and where are they affiliated?",
+  "paraphrase": "Name the co-authors of Henk Jan Bergveld in the last 9 years and where are they affiliated?"
+ },
+ {
+  "id": "Q0149",
+  "question": "In which venues did the author Jingfa Liu publish papers and what are the titles of these papers?",
+  "paraphrase": "List the venues in which J. Liu published papers and the titles of these papers."
+ },
+ {
+  "id": "Q0150",
+  "question": "In which venues did the author Shibin Gao publish papers in the last nine years and what are the titles of these papers?",
+  "paraphrase": "List the venues in which Shibin Gao published papers in the last nine years and the titles of these papers."
+ },
+ {
+  "id": "Q0151",
+  "question": "Was the paper 'Classification of patient movement events captured with a 6-axis inertial sensor' published by the person named Jerome A. Rolia?",
+  "paraphrase": "Did Rolia, Jerome A. publish the paper 'Classification of patient movement events captured with a 6-axis inertial sensor'?"
+ },
+ {
+  "id": "Q0153",
+  "question": "Did J. P. Newbury publish the paper 'Immediate Turnround-An Elusive Goal' in the last 7 years?",
+  "paraphrase": "Did J. P. Newbury publish the paper 'Immediate Turnround-An Elusive Goal' in the last seven years?"
+ },
+ {
+  "id": "Q0155",
+  "question": "Did the author Eileen T. Kraemer publish the paper 'Design and Evaluation of a Diagrammatic Notation to Aid in the Understanding of Concurrency Concepts' in the last 4 years?",
+  "paraphrase": "Did Eileen T. Kraemer publish the paper 'Design and Evaluation of a Diagrammatic Notation to Aid in the Understanding of Concurrency Concepts' in the last 4 years?"
+ },
+ {
+  "id": "Q0156",
+  "question": "Did Cui, Yaping publish the paper 'Optimal Nonuniform Steady mmWave Beamforming for High-Speed Railway' in the last two years?",
+  "paraphrase": "Did Cui, Yaping publish the paper 'Optimal Nonuniform Steady mmWave Beamforming for High-Speed Railway' in the last two years?"
+ },
+ {
+  "id": "Q0159",
+  "question": "Did the author Jarrod Trevathan publish the paper 'Targeting the Strategies of a Bid Sniper' in the last 7 years?",
+  "paraphrase": "Did the author Trevathan, Jarrod publish the paper 'Targeting the Strategies of a Bid Sniper' in the last seven years?"
+ },
+ {
+  "id": "Q0160",
+  "question": "Did the author Lorenz Welter publish the paper 'Multiple Criss-Cross Deletion-Correcting Codes' in ISIT?",
+  "paraphrase": "Has Welter, L. published the paper 'Multiple Criss-Cross Deletion-Correcting Codes' in ISIT?"
+ },
+ {
+  "id": "Q0163",
+  "question": "Has Shyu, Mei-Ling published in IEEE Trans. Geosci. Remote. Sens. in the last 8 years?",
+  "paraphrase": "Has the author Mei-Ling Shyu published in IEEE Trans. Geosci. Remote. Sens. in the last 8 years?"
+ },
+ {
+  "id": "Q0164",
+  "question": "Does Shun-ichi Amari have an ORCID?",
+  "paraphrase": "Does the person Shun-ichi Amari have an ORCID?"
+ },
+ {
+  "id": "Q0165",
+  "question": "Does the person Umut Orguner have an ORCID?",
+  "paraphrase": "Does Umut Orguner have an ORCID?"
+ },
+ {
+  "id": "Q0166",
+  "question": "Was the paper 'An investigation of handheld device use by older adults with age-related macular degeneration' published by Julie A. Jacko?",
+  "paraphrase": "Was the paper 'An investigation of handheld device use by older adults with age-related macular degeneration' published by the person J. A. Jacko?"
+ },
+ {
+  "id": "Q0167",
+  "question": "Did Runlong Yu publish in IEEE Trans. Knowl. Data Eng. in the last 8 years?",
+  "paraphrase": "Did the author Runlong Yu publish in IEEE Trans. Knowl. Data Eng. in the last eight years?"
+ },
+ {
+  "id": "Q0169",
+  "question": "Was the paper 'High resolution audio synchronization using chroma onset features' published by the author Meinard M\\u00FCller?",
+  "paraphrase": "Was the paper 'High resolution audio synchronization using chroma onset features' published by M. M\\u00FCller?"
+ },
+ {
+  "id": "Q0171",
+  "question": "Did Gordon I. Dodds publish the paper 'Optimization of Collision Free Trajectories in Multi-Robot System'?",
+  "paraphrase": "Did Dodds, G. I. publish the paper 'Optimization of Collision Free Trajectories in Multi-Robot System'?"
+ },
+ {
+  "id": "Q0172",
+  "question": "Does the author Tu, Ching-Ting have an ORCID?",
+  "paraphrase": "Does the person Tu, Ching-Ting have an ORCID?"
+ },
+ {
+  "id": "Q0173",
+  "question": "Did the author Jason I. Hong publish the paper 'Matters of design, part II' in the last seven years?",
+  "paraphrase": "Did Jason I. Hong publish the paper 'Matters of design, part II' in the last 7 years?"
+ },
+ {
+  "id": "Q0174",
+  "question": "Was the paper 'Desert bighorn sheep (Ovis canadensis) recognition from camera traps based on learned features' published by Luis Pellegrin in Ecol. Informatics?",
+  "paraphrase": "Did the author Luis Pellegrin publish the paper 'Desert bighorn sheep (Ovis canadensis) recognition from camera traps based on learned features' in Ecol. Informatics?"
+ },
+ {
+  "id": "Q0175",
+  "question": "Was the paper 'Input-output method to fault detection for discrete-time fuzzy networked systems with time-varying delay and multiple packet losses' published by the person Shenquan Wang?",
+  "paraphrase": "Did Wang, Shenquan publish the paper 'Input-output method to fault detection for discrete-time fuzzy networked systems with time-varying delay and multiple packet losses'?"
+ },
+ {
+  "id": "Q0176",
+  "question": "Did Salvador John M. Magalong publish the paper 'Effects of flipped classroom approach using gooru learning management system on students' physics achievement' in the last 6 years?",
+  "paraphrase": "Did the author Salvador John M. Magalong publish the paper 'Effects of flipped classroom approach using gooru learning management system on students' physics achievement' in the last six years?"
+ },
+ {
+  "id": "Q0177",
+  "question": "Was the paper 'Reinforcement Learning for Matrix Computations: PageRank as an Example' published by the person named Adwaitvedant S. Mathkar?",
+  "paraphrase": "Was the paper 'Reinforcement Learning for Matrix Computations: PageRank as an Example' published by Adwaitvedant S. Mathkar?"
+ },
+ {
+  "id": "Q0180",
+  "question": "Have Laurent Spinelli and Gilles Pourtois co-authored the paper 'Modulation of Face Processing by Emotional Expression and Gaze Direction during Intracranial Recordings in Right Fusiform Cortex'?",
+  "paraphrase": "Did the authors Laurent Spinelli and Gilles Pourtois co-author the paper 'Modulation of Face Processing by Emotional Expression and Gaze Direction during Intracranial Recordings in Right Fusiform Cortex'?"
+ },
+ {
+  "id": "Q0182",
+  "question": "Did the author Francisco Claude publish the paper 'On the reproducibility of experiments of indexing repetitive document collections' in the last 3 years?",
+  "paraphrase": "Did Francisco C. publish the paper 'On the reproducibility of experiments of indexing repetitive document collections' in the last three years?"
+ },
+ {
+  "id": "Q0184",
+  "question": "Does the person named B\\u00FCndgen, Reinhard have an ORCID?",
+  "paraphrase": "Does Reinhard B\\u00FCndgen have an ORCID?"
+ },
+ {
+  "id": "Q0185",
+  "question": "Has the author Mandjes, Michel published in Computing and Software Science in the last seven years?",
+  "paraphrase": "Has Mandjes, Michel published in Computing and Software Science in the last 7 years?"
+ },
+ {
+  "id": "Q0186",
+  "question": "Does Merc\\u00E8 L. have an ORCID?",
+  "paraphrase": "Does the person named Merc\\u00E8 Llabr\\u00E9s have an ORCID?"
+ },
+ {
+  "id": "Q0187",
+  "question": "Does the author Peter \\u00D8hrstr\\u00F8m have an ORCID?",
+  "paraphrase": "Does \\u00D8hrstr\\u00F8m, Peter have an ORCID?"
+ },
+ {
+  "id": "Q0188",
+  "question": "Did Hideo Kitajima and Takahiro Ogawa co-author the paper 'Restoration of missing intensity of still images by using optical flow'?",
+  "paraphrase": "Was the paper 'Restoration of missing intensity of still images by using optical flow' co-authored by Kitajima, Hideo and Takahiro O.?"
+ },
+ {
+  "id": "Q0189",
+  "question": "Did the author Warner, Richard publish the paper 'CS + X Meets CS 1: Strongly Themed Intro Courses' in the last 9 years?",
+  "paraphrase": "Did Richard Warner publish the paper 'CS + X Meets CS 1: Strongly Themed Intro Courses' in the last nine years?"
+ },
+ {
+  "id": "Q0193",
+  "question": "Did Koymans, Ron publish the paper 'Examples of a Real-Time Temporal Logic Specification' in the last nine years?",
+  "paraphrase": "Did the author Ron Koymans publish the paper 'Examples of a Real-Time Temporal Logic Specification' in the last 9 years?"
+ },
+ {
+  "id": "Q0196",
+  "question": "Did the authors Mohamed Jarraya and Omar Khedher co-author the paper 'Improved scheduling algorithm in VCL Cloud computing environment on CloudSim'?",
+  "paraphrase": "Have Mohamed Jarraya and Khedher, Omar co-authored the paper 'Improved scheduling algorithm in VCL Cloud computing environment on CloudSim'?"
+ },
+ {
+  "id": "Q0198",
+  "question": "Did the author S. Chatzinotas publish the paper 'Satellite Broadband Capacity-on-Demand: Dynamic Beam Illumination with Selective Precoding' in EUSIPCO?",
+  "paraphrase": "Did S. Chatzinotas publish the paper 'Satellite Broadband Capacity-on-Demand: Dynamic Beam Illumination with Selective Precoding' in EUSIPCO?"
+ },
+ {
+  "id": "Q0201",
+  "question": "Has the paper 'Session Initiation Protocol (SIP) Public Switched Telephone Network (PSTN) Call Flows' not been published by Kevin Summers in RFC?",
+  "paraphrase": "Was the paper 'Session Initiation Protocol (SIP) Public Switched Telephone Network (PSTN) Call Flows' not published by Kevin Summers in RFC?"
+ },
+ {
+  "id": "Q0202",
+  "question": "Didn't Carsten Bormann publish the paper 'Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures' in RFC?",
+  "paraphrase": "Has the paper 'Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures' not been published by Carsten Bormann in RFC?"
+ },
+ {
+  "id": "Q0204",
+  "question": "Didn't Heather L. Nachtmann publish the paper 'A 0-1 quadratic programme for the case of missing data in regression'?",
+  "paraphrase": "Was the paper 'A 0-1 quadratic programme for the case of missing data in regression' not published by Heather L. Nachtmann?"
+ },
+ {
+  "id": "Q0207",
+  "question": "Did W. Haebich not publish in TOOLS?",
+  "paraphrase": "Has William Haebich not published in TOOLS?"
+ },
+ {
+  "id": "Q0211",
+  "question": "Has the paper 'Asynchronous Deep Model Reference Adaptive Control' not been published by Jasvir Virdi?",
+  "paraphrase": "Was the paper 'Asynchronous Deep Model Reference Adaptive Control' not published by the person J. Virdi?"
+ },
+ {
+  "id": "Q0212",
+  "question": "Did the author Mohammad Esmalifalak not publish the paper 'Stealth false data injection using independent component analysis in smart grid'?",
+  "paraphrase": "Has the paper 'Stealth false data injection using independent component analysis in smart grid' not been published by Mohammad Esmalifalak?"
+ },
+ {
+  "id": "Q0215",
+  "question": "Has Chochlov, M. not published in International Conference on Engineering Applications of Neural Networks?",
+  "paraphrase": "Did Chochlov, M. not publish in International Conference on Engineering Applications of Neural Networks?"
+ },
+ {
+  "id": "Q0217",
+  "question": "Did the author Fernando de la Prieta not publish in DCAI?",
+  "paraphrase": "Has Fernando de la Prieta not published in International Conference on Distributed Computing and Artificial Intelligence?"
+ },
+ {
+  "id": "Q0218",
+  "question": "Has the paper 'Toward a theory of coactivation patterns in excitable neural networks' not been published by C. C. Hilgetag in PLoS Comput. Biol.?",
+  "paraphrase": "Was the paper 'Toward a theory of coactivation patterns in excitable neural networks' not published by Claus C. Hilgetag in PLoS Comput. Biol.?"
+ },
+ {
+  "id": "Q0219",
+  "question": "Did Luca Cazzanti not publish in IEEE BigData?",
+  "paraphrase": "Has the author Cazzanti, Luca not published in IEEE BigData?"
+ },
+ {
+  "id": "Q0221",
+  "question": "Did the author E. Birney not publish in Database J. Biol. Databases Curation?",
+  "paraphrase": "Has E. Birney not published in Database J. Biol. Databases Curation?"
+ },
+ {
+  "id": "Q0223",
+  "question": "Did the author Rebula, John R. not publish in IEEE International Conference on Robotics and Automation?",
+  "paraphrase": "Did Rebula, John R. not publish in IEEE International Conference on Robotics and Automation?"
+ },
+ {
+  "id": "Q0225",
+  "question": "Did Ijaz Bukhari not publish the paper 'Early Detection of Alzheimer's - A Crucial Requirement' in CoRR?",
+  "paraphrase": "Wasn't the paper 'Early Detection of Alzheimer's - A Crucial Requirement' published by the author Ijaz B. in CoRR?"
+ },
+ {
+  "id": "Q0226",
+  "question": "Have Marchesi, Michele and Ljubisa Stankovic not co-authored the paper 'OOA Metrics for the Unified Modeling Language'?",
+  "paraphrase": "Did Marchesi, Michele and Stankovic, L. not co-author the paper 'OOA Metrics for the Unified Modeling Language'?"
+ },
+ {
+  "id": "Q0227",
+  "question": "Didn't Luigi Acerbi publish the paper 'Surjective multidimensional cellular automata are non-wandering: A combinatorial proof' in Inf. Process. Lett.?",
+  "paraphrase": "Has Luigi Acerbi not published the paper 'Surjective multidimensional cellular automata are non-wandering: A combinatorial proof' in Inf. Process. Lett.?"
+ },
+ {
+  "id": "Q0228",
+  "question": "Did the author Valery U. Zavorotny not publish in IEEE Trans. Geosci. Remote. Sens.?",
+  "paraphrase": "Has Valery U. Zavorotny not published in IEEE Trans. Geosci. Remote. Sens.?"
+ },
+ {
+  "id": "Q0231",
+  "question": "Was the paper 'Comparative analysis of intelligent algorithms to correlate strength and petrographic properties of some schistose rocks' not co-authored by the authors Singh, T. Nath and Amit Kumar Verma?",
+  "paraphrase": "Did Trilok Nath Singh and Amit Kumar Verma not co-author the paper 'Comparative analysis of intelligent algorithms to correlate strength and petrographic properties of some schistose rocks'?"
+ },
+ {
+  "id": "Q0232",
+  "question": "Did the author M. Boloursaz Mashhadi not publish in CoRR?",
+  "paraphrase": "Did Mahdi Boloursaz Mashhadi not publish in CoRR?"
+ },
+ {
+  "id": "Q0234",
+  "question": "Wasn't the paper 'Let's Keep It Safe: Designing User Interfaces that Allow Everyone to Contribute to AI Safety' not published by the person named Travis Mandel?",
+  "paraphrase": "Didn't Travis Mandel publish the paper 'Let's Keep It Safe: Designing User Interfaces that Allow Everyone to Contribute to AI Safety'?"
+ },
+ {
+  "id": "Q0235",
+  "question": "Was the paper 'Verification of routing policies by using model checking technique' not published by Charuwalee Huadmai in IDAACS?",
+  "paraphrase": "Has C. Huadmai not published the paper 'Verification of routing policies by using model checking technique' in IDAACS (2)?"
+ },
+ {
+  "id": "Q0236",
+  "question": "Was the paper 'Galton Board' not published by M. Yu. Mitrofanova?",
+  "paraphrase": "Wasn't the paper 'Galton Board' not published by the author M. Yu. Mitrofanova?"
+ },
+ {
+  "id": "Q0238",
+  "question": "Was the paper 'Image Statistics as Glossiness and Translucency Predictor in Photographs of Real-world Objects' not published by Tanaka, Midori in CVCS?",
+  "paraphrase": "Didn't Midori Tanaka publish the paper 'Image Statistics as Glossiness and Translucency Predictor in Photographs of Real-world Objects' in CVCS?"
+ },
+ {
+  "id": "Q0239",
+  "question": "Did Michael Nebeling not publish the paper 'XDBrowser 20: Semi-Automatic Generation of Cross-Device Interfaces'?",
+  "paraphrase": "Has the paper 'XDBrowser 20: Semi-Automatic Generation of Cross-Device Interfaces' not been published by Michael Nebeling?"
+ },
+ {
+  "id": "Q0240",
+  "question": "Was the paper 'Die Grenzen der Digitalisierung Neubestimmung der hybriden Handlungstr\\u00E4gerschaft zwischen Mensch und Technik und Implikationen f\\u00FCr eine humane Technikgestaltung' not published by Huchler, Norbert?",
+  "paraphrase": "Was the paper 'Die Grenzen der Digitalisierung Neubestimmung der hybriden Handlungstr\\u00E4gerschaft zwischen Mensch und Technik und Implikationen f\\u00FCr eine humane Technikgestaltung' not published by the person Norbert Huchler?"
+ },
+ {
+  "id": "Q0241",
+  "question": "Was the paper 'Teaching Powerful Ideas With Autonomous Mobile Robots' not published by Rolf Pfeifer?",
+  "paraphrase": "Did Pfeifer, R. not publish the paper 'Teaching Powerful Ideas With Autonomous Mobile Robots'?"
+ },
+ {
+  "id": "Q0242",
+  "question": "Was the paper 'An active set quadratic programming algorithm for real-time model predictive control' not published by the person Das, Indraneel?",
+  "paraphrase": "Has Indraneel Das not published the paper 'An active set quadratic programming algorithm for real-time model predictive control'?"
+ },
+ {
+  "id": "Q0243",
+  "question": "Have M. Vauth and Vo, N. Phuoc An not co-authored the paper 'Netzwerkanalyse narrativer Informationsvermittlung in Dramen'?",
+  "paraphrase": "Was the paper 'Netzwerkanalyse narrativer Informationsvermittlung in Dramen' not co-authored by the authors Michael Vauth and Vo, N. Phuoc An?"
+ },
+ {
+  "id": "Q0246",
+  "question": "Did the author Ming Sun Fu not publish in IEEE International Conference on Multimedia and Expo?",
+  "paraphrase": "Did Fu, Ming Sun not publish in IEEE International Conference on Multimedia and Expo?"
+ },
+ {
+  "id": "Q0247",
+  "question": "Has the author Phooi Yee Lau not published in Int. J. Comput. Vis. Robotics?",
+  "paraphrase": "Has Phooi Yee Lau not published in Int. J. Comput. Vis. Robotics?"
+ },
+ {
+  "id": "Q0248",
+  "question": "Has Karyn E. Chappell not published in Comput. Medical Imaging Graph.?",
+  "paraphrase": "Did Karyn E. Chappell not publish in Comput. Medical Imaging Graph.?"
+ },
+ {
+  "id": "Q0250",
+  "question": "Was the paper 'WasabiBeans - Web Application Services and Business Integration' not published by the person Jonas Schulte?",
+  "paraphrase": "Did Jonas Schulte not publish the paper 'WasabiBeans - Web Application Services and Business Integration'?"
+ },
+ {
+  "id": "Q0251",
+  "question": "Has the paper 'Swarm Optimization of Structuring Elements for VHR Image Classification' not not been published by Naif Alajlan?",
+  "paraphrase": "Wasn't the paper 'Swarm Optimization of Structuring Elements for VHR Image Classification' not not published by the person named Alajlan, N.?"
+ },
+ {
+  "id": "Q0253",
+  "question": "Was the paper 'Adaptation in Constant Utility Non-Stationary Environments' not not published by Littman, M. L.?",
+  "paraphrase": "Was the paper 'Adaptation in Constant Utility Non-Stationary Environments' not not published by the person Michael L. Littman?"
+ },
+ {
+  "id": "Q0254",
+  "question": "Hasn't Protima N. Sudro not published in 2018?",
+  "paraphrase": "Did the author Protima N. Sudro not not publish in 2018?"
+ },
+ {
+  "id": "Q0256",
+  "question": "Was the paper 'Design and Modeling of ADPLL with sliding-window for wide range frequency tracking' not not published by the person Dimitri Galayko?",
+  "paraphrase": "Wasn't the paper 'Design and Modeling of ADPLL with sliding-window for wide range frequency tracking' not not published by the author Galayko, Dimitri?"
+ },
+ {
+  "id": "Q0259",
+  "question": "Has A. M. C. Ficker not not published in 2016?",
+  "paraphrase": "Has the author Annette M. C. Ficker not not published in 2016?"
+ },
+ {
+  "id": "Q0260",
+  "question": "Wasn't the paper 'Virtual traffic lights: Managing intersections in the cloud' not not published by the author Nicolas Gay?",
+  "paraphrase": "Was the paper 'Virtual traffic lights: Managing intersections in the cloud' not not published by Nicolas Gay?"
+ },
+ {
+  "id": "Q0262",
+  "question": "Has the author B. Mohn not not published in 2010?",
+  "paraphrase": "Hasn't Bjarte Mohn not published in 2010?"
+ },
+ {
+  "id": "Q0264",
+  "question": "Has Daqing Yi not not published the paper 'Sampling of Pareto-Optimal Trajectories Using Progressive Objective Evaluation in Multi-Objective Motion Planning'?",
+  "paraphrase": "Has the paper 'Sampling of Pareto-Optimal Trajectories Using Progressive Objective Evaluation in Multi-Objective Motion Planning' not not been published by Daqing Y.?"
+ },
+ {
+  "id": "Q0265",
+  "question": "Did Danny Dolev not not publish in 1983?",
+  "paraphrase": "Has the author Danny Dolev not not published in 1983?"
+ },
+ {
+  "id": "Q0266",
+  "question": "Has the paper 'Automatic Code Generation for Parallel Finite Element Solvers' not not been published by Frans N. C. Slothouber?",
+  "paraphrase": "Wasn't the paper 'Automatic Code Generation for Parallel Finite Element Solvers' not not published by the author Frans N. C. Slothouber?"
+ },
+ {
+  "id": "Q0269",
+  "question": "Has Zuccon, Guido not not published the paper 'Relevation!: an open source system for information retrieval relevance assessment'?",
+  "paraphrase": "Has the paper 'Relevation!: an open source system for information retrieval relevance assessment}' not not been published by Guido Zuccon?"
+ },
+ {
+  "id": "Q0273",
+  "question": "Did the author Chris Buckley not not publish in 1988?",
+  "paraphrase": "Hasn't Chris B. not published in 1988?"
+ },
+ {
+  "id": "Q0276",
+  "question": "Wasn't the paper 'QWRP: Query-driven virtual wheel based routing protocol for wireless sensor networks with mobile sink' not not published by the author Anupam Shukla?",
+  "paraphrase": "Has Anupam Shukla not not published the paper 'QWRP: Query-driven virtual wheel based routing protocol for wireless sensor networks with mobile sink'?"
+ },
+ {
+  "id": "Q0277",
+  "question": "Have Tuisov, Alexander and Yedidsion, L. not not co-authored a paper?",
+  "paraphrase": "Did the authors Alexander Tuisov and Yedidsion, L. not not co-author a paper?"
+ },
+ {
+  "id": "Q0278",
+  "question": "Didn't Rataj, A. not publish in 2003?",
+  "paraphrase": "Hasn't Rataj, A. not published in 2003?"
+ },
+ {
+  "id": "Q0280",
+  "question": "Didn't Stojanovski, Saso and Maurice Gagnaire not co-author a paper?",
+  "paraphrase": "Have Stojanovski, Saso and Maurice Gagnaire not not co-authored a paper?"
+ },
+ {
+  "id": "Q0284",
+  "question": "Have Aftandilian, E. and Samuel Z. Guyer not not co-authored a paper?",
+  "paraphrase": "Did the authors Edward Aftandilian and Samuel Z. Guyer not not co-author a paper?"
+ },
+ {
+  "id": "Q0285",
+  "question": "Has Rainer Moorfeld not not published the paper 'Performance of energy detection in NLOS frequency-selective fading channels'?",
+  "paraphrase": "Has the paper 'Performance of energy detection in NLOS frequency-selective fading channels' not not been published by Rainer M.?"
+ },
+ {
+  "id": "Q0288",
+  "question": "Didn't Kui Fu Chen not publish the paper 'Composite Interpolated Fast Fourier Transform With the Hanning Window'?",
+  "paraphrase": "Has Chen, K. Fu not not published the paper 'Composite Interpolated Fast Fourier Transform With the Hanning Window'?"
+ },
+ {
+  "id": "Q0291",
+  "question": "Didn't Cassandras, Christos G. and Christoforos Panayiotou not co-author a paper?",
+  "paraphrase": "Was a paper not not co-authored by Christos G. Cassandras and Panayiotou, Christoforos?"
+ },
+ {
+  "id": "Q0292",
+  "question": "Wasn't the paper 'Cardiac Electrical Alternans in Pregnancy: an Observational Study' not not published by the person named Raffaella Assogna?",
+  "paraphrase": "Was the paper 'Cardiac Electrical Alternans in Pregnancy: an Observational Study' not not published by the person Assogna, R.?"
+ },
+ {
+  "id": "Q0293",
+  "question": "Has Beverley F. Ronalds not not published in 2016?",
+  "paraphrase": "Did Beverley F. Ronalds not not publish in 2016?"
+ },
+ {
+  "id": "Q0294",
+  "question": "Has the paper 'A new filtering method for the Cauchy problem of the Laplace equation' not not been published by Feng, Xiao-Li?",
+  "paraphrase": "Didn't Xiao-Li Feng not publish the paper 'A new filtering method for the Cauchy problem of the Laplace equation'?"
+ },
+ {
+  "id": "Q0295",
+  "question": "Has the author Yeo, Tat Soon not not published in 2016?",
+  "paraphrase": "Has Yeo, Tat Soon not not published in 2016?"
+ },
+ {
+  "id": "Q0296",
+  "question": "Did Kimmes, Nicole S. not not publish in 2014?",
+  "paraphrase": "Has the author Kimmes, Nicole S. not not published in 2014?"
+ },
+ {
+  "id": "Q0297",
+  "question": "Has the author Stefan M. Wild not not published in 2015?",
+  "paraphrase": "Did Stefan M. Wild not not publish in 2015?"
+ },
+ {
+  "id": "Q0299",
+  "question": "Has the paper 'Real-time Industrial Visual Inspection: A Review' not not been published by Rodd, Michael G.?",
+  "paraphrase": "Wasn't the paper 'Real-time Industrial Visual Inspection: A Review' not not published by the person named Rodd, Michael G.?"
+ },
+ {
+  "id": "Q0304",
+  "question": "Fowlkes, Charless C. and Burl, Michael C. published which papers in International Conference on Scientific and Statistical Data Base Management?",
+  "paraphrase": "List all the papers that Charless C. Fowlkes and Michael C. Burl published in SSDBM."
+ },
+ {
+  "id": "Q0305",
+  "question": "List all the primary affiliations of Raban, D. R. and Sheizaf Rafaeli.",
+  "paraphrase": "Raban, D. R. and Rafaeli, S. have which primary affiliations?"
+ },
+ {
+  "id": "Q0306",
+  "question": "List all the papers that Charles Spence and Yuechai Lin published.",
+  "paraphrase": "What are the papers that Charles Spence and Y. Lin published?"
+ },
+ {
+  "id": "Q0308",
+  "question": "Kim, Sung-Suk and B. John Oommen have which primary affiliations?",
+  "paraphrase": "What are all the primary affiliations of Kim, Sung-Suk and B. John Oommen?"
+ },
+ {
+  "id": "Q0309",
+  "question": "What are the papers that Pei Xiao and Mathini Sellathurai published?",
+  "paraphrase": "Xiao, Pei and Mathini S. published which papers?"
+ },
+ {
+  "id": "Q0311",
+  "question": "What are the papers that P. Belsis and Stefanos Gritzalis published in AIAI?",
+  "paraphrase": "What are all the papers that Petros Belsis and Stefanos Gritzalis published in Artificial Intelligence Applications and Innovations?"
+ },
+ {
+  "id": "Q0312",
+  "question": "In IEEE Trans. Image Process. and IEEE Trans. Biomed. Eng., what papers did Kuk-Jin Yoon publish?",
+  "paraphrase": "What papers did Kuk-Jin Yoon publish in IEEE Trans. Image Process. and IEEE Trans. Biomed. Eng.?"
+ },
+ {
+  "id": "Q0315",
+  "question": "What publications did the author Decong Y. publish in ACIVS and ICIS?",
+  "paraphrase": "What papers did Decong Y. publish in Advanced Concepts for Intelligent Vision Systems and ICIS?"
+ },
+ {
+  "id": "Q0318",
+  "question": "What publications did the author Samet, Hanan publish in SSD and WiOpt?",
+  "paraphrase": "In SSD and International Symposium on Modelling and Optimization in Mobile, Ad Hoc, and Wireless Networks, what papers did Hanan Samet publish?"
+ },
+ {
+  "id": "Q0319",
+  "question": "List all the papers that Carlo Bernaschina and Emanuele Falzone published in ICWE Workshops.",
+  "paraphrase": "Carlo Bernaschina and Emanuele Falzone published which papers in ICWE Workshops?"
+ },
+ {
+  "id": "Q0320",
+  "question": "List all the papers that Steve Renals published in Association of Computational Linguistics and WebNet.",
+  "paraphrase": "In ACL (2) and WebNet, what papers did Renals, Steve publish?"
+ },
+ {
+  "id": "Q0322",
+  "question": "In WESS and Machine Learning for Health Informatics, what papers did Edgar Mateos publish?",
+  "paraphrase": "What publications did the author Edgar Mateos publish in WESS and Machine Learning for Health Informatics?"
+ },
+ {
+  "id": "Q0323",
+  "question": "What publications did the author Sejtes, G. publish in Acta Cybern. and IEEE Access?",
+  "paraphrase": "In Acta Cybern. and IEEE Access, what papers did Gy\\u00F6rgyi Sejtes publish?"
+ },
+ {
+  "id": "Q0324",
+  "question": "List all the papers that Rodney A. Pearson and Kent Marett published.",
+  "paraphrase": "What are the papers that Rodney A. Pearson and Kent M. published?"
+ },
+ {
+  "id": "Q0325",
+  "question": "List all the papers that Kentaro Inui published in MICAI and WAIM.",
+  "paraphrase": "What papers did Kentaro Inui publish in MICAI and WAIM?"
+ },
+ {
+  "id": "Q0326",
+  "question": "List all the primary affiliations of Garc\\u00EDa-Pe\\u00F1alvo, F. J. and Ana Mar\\u00EDa Pinto Llorente.",
+  "paraphrase": "What are the primary affiliations of Francisco J. Garc\\u00EDa-Pe\\u00F1alvo and A. Mar\\u00EDa Pinto Llorente?"
+ },
+ {
+  "id": "Q0328",
+  "question": "A. Sevastopolsky and Victor S. Lempitsky published which papers?",
+  "paraphrase": "What are all the papers that A. Sevastopolsky and Victor S. Lempitsky published?"
+ },
+ {
+  "id": "Q0329",
+  "question": "What are all the papers that Marilyn D. Paterno and David W. Bates published?",
+  "paraphrase": "List all the papers that Marilyn D. Paterno and David W. Bates published."
+ },
+ {
+  "id": "Q0330",
+  "question": "List all the papers that Arthur S. Morris and Qizheng Gu published.",
+  "paraphrase": "What are all the papers that Morris, A. S. and Q. Gu published?"
+ },
+ {
+  "id": "Q0331",
+  "question": "In CANDAR and CoRR, what papers did Kota Matsuyama publish?",
+  "paraphrase": "What publications did the author Kota Matsuyama publish in CANDAR and CoRR?"
+ },
+ {
+  "id": "Q0332",
+  "question": "What are the papers that Ann M. Hickey and Alan M. Davis published?",
+  "paraphrase": "List all the papers that Ann M. Hickey and Alan M. Davis published."
+ },
+ {
+  "id": "Q0334",
+  "question": "What publications did the author Arthur Gill publish in J. ACM and Neural Comput. Appl.?",
+  "paraphrase": "List all the papers that Arthur Gill published in J. ACM and Neural Comput. Appl.."
+ },
+ {
+  "id": "Q0335",
+  "question": "In Pattern Recognit. and International Conference on Advanced Information Networking and Applications, what papers did Ethem Alpaydin publish?",
+  "paraphrase": "What papers did Ethem Alpaydin publish in Pattern Recognit. and AINA?"
+ },
+ {
+  "id": "Q0336",
+  "question": "In NeuroImage and Electron. Colloquium Comput. Complex., what papers did Witold X. Chmielewski publish?",
+  "paraphrase": "What publications did the author Witold X. Chmielewski publish in NeuroImage and Electron. Colloquium Comput. Complex.?"
+ },
+ {
+  "id": "Q0337",
+  "question": "List all the papers that Daniel S. Berger published in WiNTECH and IJCAI.",
+  "paraphrase": "What papers did D. S. Berger publish in WiNTECH and International Joint Conference on Artificial Intelligence?"
+ },
+ {
+  "id": "Q0338",
+  "question": "Zongyong Cui and Yiming Pi published which papers in Neurocomputing?",
+  "paraphrase": "What are all the papers that Zongyong Cui and Yiming Pi published in Neurocomputing?"
+ },
+ {
+  "id": "Q0339",
+  "question": "What papers did Marzi, Ruth publish in Math. Comput. Simul. and CSCW Companion?",
+  "paraphrase": "In Math. Comput. Simul. and CSCW Companion, what papers did Marzi, Ruth publish?"
+ },
+ {
+  "id": "Q0340",
+  "question": "List all the papers that Tan, Long and Mark T. Keane published in WAIM.",
+  "paraphrase": "Tan, L. and Keane, M. T. published which papers in WAIM?"
+ },
+ {
+  "id": "Q0341",
+  "question": "Dominik Bleckmann and Hosein Marzi published which papers?",
+  "paraphrase": "What are the papers that D. Bleckmann and Hosein M. published?"
+ },
+ {
+  "id": "Q0342",
+  "question": "List all the papers that Shivani Poddar published in LREC and Trans. Emerg. Telecommun. Technol..",
+  "paraphrase": "In Language Resources and Evaluation Conference and Trans. Emerg. Telecommun. Technol., what papers did Shivani Poddar publish?"
+ },
+ {
+  "id": "Q0343",
+  "question": "List all the papers that Sejdic, Ervin and Ljubisa Stankovic published in IEEE Signal Process. Lett..",
+  "paraphrase": "What are all the papers that Sejdic, Ervin and Stankovic, L. published in IEEE Signal Process. Lett.?"
+ },
+ {
+  "id": "Q0344",
+  "question": "What are the papers that Venkataramanan Balakrishnan and Kothare, Mayuresh V. published?",
+  "paraphrase": "Venkataramanan Balakrishnan and Kothare, Mayuresh V. published which papers?"
+ },
+ {
+  "id": "Q0345",
+  "question": "What are the papers that S. Sowmya Kamath and Amol P. Bhopale published?",
+  "paraphrase": "List all the papers that Kamath, S. Sowmya and Amol P. Bhopale published."
+ },
+ {
+  "id": "Q0347",
+  "question": "What publications did the author Joseph Shtok publish in CoRR and IEEE International Workshop on Quality of Service?",
+  "paraphrase": "In CoRR and IWQoS, what papers did J. Shtok publish?"
+ },
+ {
+  "id": "Q0348",
+  "question": "List all the papers that James L. Melsa and David L. Cohn published.",
+  "paraphrase": "What are the papers that James L. Melsa and David L. Cohn published?"
+ },
+ {
+  "id": "Q0349",
+  "question": "List all the papers that Grigorios Tsoumakas and Dimitris Dimitriadis published in J. Biomed. Informatics.",
+  "paraphrase": "What are all the papers that Grigorios Tsoumakas and Dimitris Dimitriadis published in J. Biomed. Informatics?"
+ },
+ {
+  "id": "Q0350",
+  "question": "In IEEE Trans. Very Large Scale Integr. Syst. and Entropy, what papers did Minjae Lee publish?",
+  "paraphrase": "What publications did the author Minjae Lee publish in IEEE Trans. Very Large Scale Integr. Syst. and Entropy?"
+ },
+ {
+  "id": "Q0351",
+  "question": "Mention the publication on Point processes that was published by Anthony in PE-WASUN.",
+  "paraphrase": "Which publication on Point processes was published by the author Anthony in PE-WASUN?"
+ },
+ {
+  "id": "Q0352",
+  "question": "Which author with the name Chung published the paper about Exponential backoff?",
+  "paraphrase": "Which author published the paper on Exponential backoff and has the name Chung?"
+ },
+ {
+  "id": "Q0353",
+  "question": "Mention the publication on Regression analysis that was published by Gerow in MIS Q..",
+  "paraphrase": "Which publication on Regression analysis was published by the author Gerow in MIS Q.?"
+ },
+ {
+  "id": "Q0354",
+  "question": "Which research paper on Split operator was published by Heiko in Comput. Phys. Commun.?",
+  "paraphrase": "Mention the publication on Split operator that was published by Heiko in Comput. Phys. Commun.."
+ },
+ {
+  "id": "Q0355",
+  "question": "Xiaobo published the paper on Mixture model in which venue?",
+  "paraphrase": "Xiaobo published the publication on Mixture model in which venue?"
+ },
+ {
+  "id": "Q0356",
+  "question": "Theodora published the paper on Multimodal trajectories in which venue?",
+  "paraphrase": "In which venue did Theodora write the research papers about Multimodal trajectories?"
+ },
+ {
+  "id": "Q0357",
+  "question": "In which venue did Fogelman-Souli\\u00E9 write the research papers about Feature engineering?",
+  "paraphrase": "In which venue did Fran\\u00E7oise publish the paper about Feature engineering?"
+ },
+ {
+  "id": "Q0358",
+  "question": "Shadab published the publication on Circuit help in which venue?",
+  "paraphrase": "In which venue did Shadab publish the paper about Circuit help?"
+ },
+ {
+  "id": "Q0359",
+  "question": "Find the paper on R&d results that was published by Markus in ECKM.",
+  "paraphrase": "Which publication on R&d results was published by the author Markus in ECKM?"
+ },
+ {
+  "id": "Q0360",
+  "question": "Mention the publication on Anonymity model that was published by Bo in Comput. Secur..",
+  "paraphrase": "Which paper on Anonymity model was published by Yang in Comput. Secur.?"
+ },
+ {
+  "id": "Q0361",
+  "question": "Name the venue in which Lin published the paper about Message service.",
+  "paraphrase": "In which venue did Lin publish the paper about Message service?"
+ },
+ {
+  "id": "Q0362",
+  "question": "Who is the author named Li who published the paper about Precision observations?",
+  "paraphrase": "Which author with the name Li published the paper about Precision observations?"
+ },
+ {
+  "id": "Q0363",
+  "question": "Which research paper on Graph representations was published by Liao in European Conference on Computer Vision?",
+  "paraphrase": "Which paper on Graph representations was published by Liao in European Conference on Computer Vision?"
+ },
+ {
+  "id": "Q0364",
+  "question": "Which author published the paper on Disease prediction and has the name T.?",
+  "paraphrase": "Who is the author named Satish who published the paper about Disease prediction?"
+ },
+ {
+  "id": "Q0365",
+  "question": "Who is the author named S. who published the paper about Connection scheduling?",
+  "paraphrase": "Which author published the paper on Connection scheduling and has the name Pai?"
+ },
+ {
+  "id": "Q0366",
+  "question": "Find the paper on Verteilter programme that was published by Schill in Wirtschaftsinf..",
+  "paraphrase": "Mention the publication on Verteilter programme that was published by Alexander in Wirtschaftsinf.."
+ },
+ {
+  "id": "Q0367",
+  "question": "Which author named Sitte published the paper on Map algorithm?",
+  "paraphrase": "Who is the author named Joaquin who published the paper about Map algorithm?"
+ },
+ {
+  "id": "Q0368",
+  "question": "In which venue did Sapna publish the paper about Science classes?",
+  "paraphrase": "In which venue did Cheryan write the research papers about Science classes?"
+ },
+ {
+  "id": "Q0369",
+  "question": "Which author with the name Kobbi published the paper about Set operations?",
+  "paraphrase": "Name the author who published the paper on Set operations and has the name Kobbi."
+ },
+ {
+  "id": "Q0370",
+  "question": "Mention the publication on Gene expression that was published by Visel in Nucleic Acids Res..",
+  "paraphrase": "Which publication on Gene expression was published by the author Visel in Nucleic Acids Res.?"
+ },
+ {
+  "id": "Q0371",
+  "question": "Name the venue in which Akira published the paper about Document classifier.",
+  "paraphrase": "In which venue did Nagai write the research papers about Document classifier?"
+ },
+ {
+  "id": "Q0372",
+  "question": "Which research paper on Extension framework was published by Ramachandran in USENIX Annual Technical Conference?",
+  "paraphrase": "Which publication on Extension framework was published by the author Ramachandran in USENIX Annual Technical Conference?"
+ },
+ {
+  "id": "Q0373",
+  "question": "In which venue did Huan write the research papers about Modeling approach?",
+  "paraphrase": "Huan published the paper on Modeling approach in which venue?"
+ },
+ {
+  "id": "Q0374",
+  "question": "Which author named Heijer published the paper on Glitch art?",
+  "paraphrase": "Which author with the name Heijer published the paper about Glitch art?"
+ },
+ {
+  "id": "Q0375",
+  "question": "Which paper on Feedback scheduling was published by Dan in IEEE Real Time Technology and Applications Symposium?",
+  "paraphrase": "Which publication on Feedback scheduling was published by the author Henriksson in IEEE Real Time Technology and Applications Symposium?"
+ },
+ {
+  "id": "Q0376",
+  "question": "T. published the paper on Order model in which venue?",
+  "paraphrase": "Name the venue in which O'Brien published the paper about Order model."
+ },
+ {
+  "id": "Q0377",
+  "question": "In which venue did Adenso-D\\u00EDaz publish the paper about Bi-?",
+  "paraphrase": "In which venue did Belarmino write the research papers about Bi-?"
+ },
+ {
+  "id": "Q0378",
+  "question": "Mention the publication on Model stability that was published by Yu in IRPS.",
+  "paraphrase": "Which research paper on Model stability was published by Yu in IRPS?"
+ },
+ {
+  "id": "Q0379",
+  "question": "Mention the publication on Runtime detection that was published by Julien in RV.",
+  "paraphrase": "Which publication on Runtime detection was published by the author Julien in International Conference on Runtime Verification?"
+ },
+ {
+  "id": "Q0380",
+  "question": "Name the venue in which O. published the paper about Transfer function.",
+  "paraphrase": "Moheimani published the publication on Transfer function in which venue?"
+ },
+ {
+  "id": "Q0381",
+  "question": "Who is the author named Yue who published the paper about Dos attack?",
+  "paraphrase": "Which author named Yue published the paper on Dos attack?"
+ },
+ {
+  "id": "Q0382",
+  "question": "Which author published the paper on File distribution and has the name Xu?",
+  "paraphrase": "Name the author who published the paper on File distribution and has the name Dongyan."
+ },
+ {
+  "id": "Q0383",
+  "question": "Mention the publication on Membership method that was published by Wen in Auton. Robots.",
+  "paraphrase": "Find the paper on Membership method that was published by Wen in Auton. Robots."
+ },
+ {
+  "id": "Q0384",
+  "question": "Ping-Feng published the paper on Intersection concept in which venue?",
+  "paraphrase": "Name the venue in which Ping-Feng published the paper about Intersection concept."
+ },
+ {
+  "id": "Q0385",
+  "question": "Which research paper on Mathematics problems was published by Susan in Int. J. Web Based Learn. Teach. Technol.?",
+  "paraphrase": "Mention the publication on Mathematics problems that was published by Susan in Int. J. Web Based Learn. Teach. Technol.."
+ },
+ {
+  "id": "Q0386",
+  "question": "In which venue did Martin publish the paper about Band cmos?",
+  "paraphrase": "Martin published the paper on Band cmos in which venue?"
+ },
+ {
+  "id": "Q0387",
+  "question": "Which author with the name Jha published the paper about Approximation algorithms?",
+  "paraphrase": "Which author named Somesh published the paper on Approximation algorithms?"
+ },
+ {
+  "id": "Q0388",
+  "question": "Sugawara published the paper on Series prediction model building in which venue?",
+  "paraphrase": "In which venue did Sugawara write the research papers about Series prediction model building?"
+ },
+ {
+  "id": "Q0389",
+  "question": "Which publication on Specimen images was published by the author Murashov in VISAPP?",
+  "paraphrase": "Find the paper on Specimen images that was published by Dmitry in VISAPP."
+ },
+ {
+  "id": "Q0390",
+  "question": "Which paper on Cancer care was published by Liu in CIT/IUCC/DASC/PICom?",
+  "paraphrase": "Mention the publication on Cancer care that was published by Enjie in CIT/IUCC/DASC/PICom."
+ },
+ {
+  "id": "Q0391",
+  "question": "In which venue did Roque write the research papers about Literature review?",
+  "paraphrase": "Roque published the paper on Literature review in which venue?"
+ },
+ {
+  "id": "Q0392",
+  "question": "Mention the publication on Degree trends that was published by Cheryl in IEEE Technol. Soc. Mag..",
+  "paraphrase": "Which research paper on Degree trends was published by B. in IEEE Technol. Soc. Mag.?"
+ },
+ {
+  "id": "Q0393",
+  "question": "Find the paper on Order interval that was published by Vakif in ICINCO (1).",
+  "paraphrase": "Which publication on Order interval was published by the author Vakif in ICINCO (1)?"
+ },
+ {
+  "id": "Q0394",
+  "question": "Who is the author named Josep who published the paper about Energy efficiency?",
+  "paraphrase": "Which author with the name Subirats published the paper about Energy efficiency?"
+ },
+ {
+  "id": "Q0395",
+  "question": "Which author published the paper on Feature location tasks and has the name Zhao?",
+  "paraphrase": "Which author named Zhao published the paper on Feature location tasks?"
+ },
+ {
+  "id": "Q0396",
+  "question": "Dario published the publication on Time marker in which venue?",
+  "paraphrase": "Dario published the paper on Time marker in which venue?"
+ },
+ {
+  "id": "Q0397",
+  "question": "Which paper on Image segmentation was published by Bradley in MICCAI?",
+  "paraphrase": "Find the paper on Image segmentation that was published by Pamela in MICCAI."
+ },
+ {
+  "id": "Q0398",
+  "question": "Keshavamurthy published the paper on Image data in which venue?",
+  "paraphrase": "Keshavamurthy published the publication on Image data in which venue?"
+ },
+ {
+  "id": "Q0399",
+  "question": "Which author with the name Youngim published the paper about Phrase boundary?",
+  "paraphrase": "Who is the author named Jung who published the paper about Phrase boundary?"
+ },
+ {
+  "id": "Q0400",
+  "question": "Name the author who published the paper on Shopping behavior and has the name Ming-Hui.",
+  "paraphrase": "Which author with the name Ming-Hui published the paper about Shopping behavior?"
+ },
+ {
+  "id": "Q0401",
+  "question": "How many publications did Nicola Leone and Mario Alviano author together?",
+  "paraphrase": "How many research papers did Nicola Leone and Alviano, Mario write together?"
+ },
+ {
+  "id": "Q0402",
+  "question": "What is the average number of co-authors for papers published by Mohamed-Slim A.?",
+  "paraphrase": "What is the average number of co-authors for publications published by the author Mohamed-Slim A.?"
+ },
+ {
+  "id": "Q0403",
+  "question": "How many papers did Francisco Jes\\u00FAs Moral and Fernando Guijarro write together?",
+  "paraphrase": "How many publications did F. Jes\\u00FAs Moral and F. Guijarro author together?"
+ },
+ {
+  "id": "Q0404",
+  "question": "In HLS-D3@EC-TEL, how many papers has Adolfo Ruiz-Calleja published?",
+  "paraphrase": "Count the number of papers that A. Ruiz-Calleja has published in HLS-D3@EC-TEL."
+ },
+ {
+  "id": "Q0405",
+  "question": "Mention the number of papers that Tathagata M. has published.",
+  "paraphrase": "How many research papers has Tathagata M. published?"
+ },
+ {
+  "id": "Q0406",
+  "question": "Report the average number of publications by Masaki Suwa per year.",
+  "paraphrase": "What is the average number of research papers published by the author Suwa, Masaki per year?"
+ },
+ {
+  "id": "Q0407",
+  "question": "How many publications did Jinghua Zhang and Soumyadip Sengupta author together?",
+  "paraphrase": "How many papers did Jinghua Zhang and Soumyadip S. write together?"
+ },
+ {
+  "id": "Q0408",
+  "question": "How many papers did the authors Knocker, L. and Zheng Rong Yang co-write?",
+  "paraphrase": "Count the number of papers that Knocker, L. and Zheng Rong Yang wrote together."
+ },
+ {
+  "id": "Q0409",
+  "question": "In CoRR, how many publications has Dorband, J. E. published?",
+  "paraphrase": "In CoRR, how many papers has Dorband, J. E. published?"
+ },
+ {
+  "id": "Q0411",
+  "question": "Report the average number of publications by Chaudhuri, S. R. Bhadra per year.",
+  "paraphrase": "What is the average number of publications published by Chaudhuri, S. R. Bhadra per year?"
+ },
+ {
+  "id": "Q0412",
+  "question": "How many publications has Hajlaoui, K. published in RCIS?",
+  "paraphrase": "How many papers has Kafil Hajlaoui published in International Conference on Research Challenges in Information Science?"
+ },
+ {
+  "id": "Q0413",
+  "question": "How many papers did Maya R. Gupta and Hazen, Megan write together?",
+  "paraphrase": "How many publications did Maya R. Gupta and Hazen, Megan author together?"
+ },
+ {
+  "id": "Q0414",
+  "question": "How many co-authors does Steve Bellinger have?",
+  "paraphrase": "Report the number of co-authors that Steve Bellinger has."
+ },
+ {
+  "id": "Q0418",
+  "question": "Count the number of papers that Zhang, Chenlu has published in Wirel. Pers. Commun..",
+  "paraphrase": "How many publications has Zhang, C. published in Wirel. Pers. Commun.?"
+ },
+ {
+  "id": "Q0419",
+  "question": "How many papers has Tommi Salminen published in SoC?",
+  "paraphrase": "How many publications has Tommi Salminen published in SoC?"
+ },
+ {
+  "id": "Q0420",
+  "question": "How many research papers did Nobuyuki Matsui and Haruhiko Nishimura write together?",
+  "paraphrase": "Count the number of papers that Nobuyuki Matsui and H. Nishimura wrote together."
+ },
+ {
+  "id": "Q0421",
+  "question": "How many papers did the authors Kemper Lewis and David Van Horn co-write?",
+  "paraphrase": "Count the number of papers that K. Lewis and David Van Horn wrote together."
+ },
+ {
+  "id": "Q0422",
+  "question": "How many publications did Mijin An and Park, Hyunwoo author together?",
+  "paraphrase": "Count the number of papers that M. An and Hyunwoo Park wrote together."
+ },
+ {
+  "id": "Q0423",
+  "question": "How many research papers has Marek Miskowicz published?",
+  "paraphrase": "How many papers has Marek Miskowicz published?"
+ },
+ {
+  "id": "Q0424",
+  "question": "Count the number of papers that Amirreza Shirani has published.",
+  "paraphrase": "How many research papers has A. Shirani published?"
+ },
+ {
+  "id": "Q0425",
+  "question": "In SIGGRAPH Posters, how many papers has Wan-Lun Tsai published?",
+  "paraphrase": "In SIGGRAPH Posters, how many publications has W. Tsai published?"
+ },
+ {
+  "id": "Q0426",
+  "question": "Count the number of co-authors that Berke, Allison has.",
+  "paraphrase": "How many co-authors does Allison Berke have?"
+ },
+ {
+  "id": "Q0427",
+  "question": "Mention the number of papers that Rodrigues, Nishant has published.",
+  "paraphrase": "How many papers has Rodrigues, Nishant published?"
+ },
+ {
+  "id": "Q0428",
+  "question": "Report the average number of co-authors for publications published by J. Bryan Lyles.",
+  "paraphrase": "What is the average number of co-authors for publications published by the author J. Bryan Lyles?"
+ },
+ {
+  "id": "Q0429",
+  "question": "Count the number of papers that Pasarella, Edelmira has published.",
+  "paraphrase": "How many publications has the author Edelmira Pasarella published?"
+ },
+ {
+  "id": "Q0430",
+  "question": "What is the average number of co-authors for papers published by Beat Pfister?",
+  "paraphrase": "What is the average number of co-authors for research papers published by Beat Pfister?"
+ },
+ {
+  "id": "Q0432",
+  "question": "With how many other authors has Townend, Paul co-authored papers?",
+  "paraphrase": "Report the number of co-authors that Paul Townend has."
+ },
+ {
+  "id": "Q0433",
+  "question": "In International Conference on Software Engineering and Knowledge Engineering, how many publications has Imran A. Zualkernan published?",
+  "paraphrase": "How many papers has Zualkernan, I. A. published in SEKE?"
+ },
+ {
+  "id": "Q0435",
+  "question": "Report the count of papers that Timothy Verstraeten has published in International Joint Conference on Autonomous Agents and Multiagent Systems.",
+  "paraphrase": "In International Joint Conference on Autonomous Agents and Multiagent Systems, how many publications has T. Verstraeten published?"
+ },
+ {
+  "id": "Q0436",
+  "question": "Mention the number of papers that Bart Thijs has published.",
+  "paraphrase": "How many publications has the author B. Thijs published?"
+ },
+ {
+  "id": "Q0437",
+  "question": "What is the average number of co-authors for publications published by the author Hyearn Jeon?",
+  "paraphrase": "Calculate the average number of co-authors for papers published by H. Jeon."
+ },
+ {
+  "id": "Q0438",
+  "question": "How many research papers has Warwick de Launey published?",
+  "paraphrase": "Count the number of papers that Warwick d. Launey has published."
+ },
+ {
+  "id": "Q0439",
+  "question": "What is the average number of papers published by Hailes, Stephen per year?",
+  "paraphrase": "Report the average number of publications by Hailes, Stephen per year."
+ },
+ {
+  "id": "Q0440",
+  "question": "Calculate the average number of co-authors for papers published by Xuanming Lu.",
+  "paraphrase": "What is the average number of co-authors for papers published by Lu, X.?"
+ },
+ {
+  "id": "Q0441",
+  "question": "Count the number of papers that Taymouri, Farbod and Marcello La Rosa wrote together.",
+  "paraphrase": "How many research papers did Farbod Taymouri and Marcello La Rosa write together?"
+ },
+ {
+  "id": "Q0442",
+  "question": "How many publications has the author Hynek Hermansky published?",
+  "paraphrase": "Mention the number of papers that Hynek Hermansky has published."
+ },
+ {
+  "id": "Q0443",
+  "question": "With how many other authors has Kyle O'Keefe co-authored papers?",
+  "paraphrase": "Count the number of co-authors that K. O'Keefe has."
+ },
+ {
+  "id": "Q0444",
+  "question": "Calculate the average number of papers published by Wang, C. An per year.",
+  "paraphrase": "What is the average number of research papers published by the author Wang, C. An per year?"
+ },
+ {
+  "id": "Q0447",
+  "question": "Calculate the average number of co-authors for papers published by Otto Mayer.",
+  "paraphrase": "What is the average number of co-authors for research papers published by Otto Mayer?"
+ },
+ {
+  "id": "Q0448",
+  "question": "Mention the number of papers that Birman, Kenneth P. has published.",
+  "paraphrase": "How many research papers has Birman, Kenneth P. published?"
+ },
+ {
+  "id": "Q0449",
+  "question": "What is the average number of co-authors for publications published by the author Amar Aggoun?",
+  "paraphrase": "Report the average number of co-authors for publications published by Amar Aggoun."
+ },
+ {
+  "id": "Q0450",
+  "question": "How many publications has the author Sentis, R\\u00E9mi published?",
+  "paraphrase": "How many papers has Sentis, R\\u00E9mi published?"
+ },
+ {
+  "id": "Q0452",
+  "question": "In which year did Clive Roberts publish the most publications?",
+  "paraphrase": "In which year did the author Clive R. publish the most research papers?"
+ },
+ {
+  "id": "Q0453",
+  "question": "Find the year in which Pierson, Jean-Marc published their first paper.",
+  "paraphrase": "In which year did Pierson, J. publish their first paper?"
+ },
+ {
+  "id": "Q0454",
+  "question": "When was the last publication by Jin Hwan Kim published?",
+  "paraphrase": "In which year did J. Hwan Kim publish their last paper?"
+ },
+ {
+  "id": "Q0455",
+  "question": "When was the last publication by Wu, Xiaoping published?",
+  "paraphrase": "In which year was the last paper by Wu, Xiaoping published?"
+ },
+ {
+  "id": "Q0456",
+  "question": "In which year did Keith L. Davidson publish the most publications?",
+  "paraphrase": "Mention the year in which Davidson, Keith L. published the most papers."
+ },
+ {
+  "id": "Q0459",
+  "question": "Most nubmer of papers were published by Chris Heunen in which year?",
+  "paraphrase": "In which year did Heunen, Chris publish the most papers?"
+ },
+ {
+  "id": "Q0460",
+  "question": "In which year was the first paper by Alireza Ghasempour published?",
+  "paraphrase": "In which year did Alireza G. publish their first paper?"
+ },
+ {
+  "id": "Q0462",
+  "question": "In which year did Kemal Efe publish the most papers?",
+  "paraphrase": "Mention the year in which Kemal Efe published the most papers."
+ },
+ {
+  "id": "Q0463",
+  "question": "In which year did Michael A. Harrison publish their first paper?",
+  "paraphrase": "Find the year in which Michael A. Harrison published their first paper."
+ },
+ {
+  "id": "Q0464",
+  "question": "When was the last publication by Bilgi Terlemezoglu published?",
+  "paraphrase": "In which year did Terlemezoglu, Bilgi publish their last paper?"
+ },
+ {
+  "id": "Q0465",
+  "question": "Find the year in which Takayuki Yamamoto published their first paper.",
+  "paraphrase": "In which year was the first paper by Takayuki Yamamoto published?"
+ },
+ {
+  "id": "Q0466",
+  "question": "When was the last paper by P. Maponi published?",
+  "paraphrase": "In which year was the last paper by Pierluigi Maponi published?"
+ },
+ {
+  "id": "Q0468",
+  "question": "In which year did the author Hiroshi Doi publish the most research papers?",
+  "paraphrase": "Mention the year in which Hiroshi Doi published the most papers."
+ },
+ {
+  "id": "Q0470",
+  "question": "Report the most frequent co-author of M. A. Ganter and how many papers do they have together?",
+  "paraphrase": "With which author does M. A. Ganter has the most papers and how many?"
+ },
+ {
+  "id": "Q0471",
+  "question": "Sullivan, Barry J. published the most papers in which venue and how many?",
+  "paraphrase": "Barry J. Sullivan published the most publications in which venue?"
+ },
+ {
+  "id": "Q0472",
+  "question": "In which year did Torres, M. In\\u00E9s publish the most publications?",
+  "paraphrase": "In which year did M. In\\u00E9s Torres publish the most papers?"
+ },
+ {
+  "id": "Q0473",
+  "question": "Pen-Chung Yew published the most papers in which venue and how many?",
+  "paraphrase": "Report the venue in which Pen-Chung Yew published the most papers."
+ },
+ {
+  "id": "Q0474",
+  "question": "Report the year in which Chauchin S. published the least papers.",
+  "paraphrase": "In which year did the author Chauchin Su publish the least research papers?"
+ },
+ {
+  "id": "Q0475",
+  "question": "Find the year in which Wu, Tian-Ying published their first paper.",
+  "paraphrase": "In which year was the first paper by Wu, Tian-Ying published?"
+ },
+ {
+  "id": "Q0477",
+  "question": "Report the most frequent co-author of Aboul Ella Hassanien and how many papers do they have together?",
+  "paraphrase": "Who is the most frequent co-author of Aboul Ella Hassanien and how many publications do they have together?"
+ },
+ {
+  "id": "Q0478",
+  "question": "Name the most frequent co-author of Prabhakaran, Vinod M. and how many research papers do they have together?",
+  "paraphrase": "Report the most frequent co-author of Prabhakaran, Vinod M. and how many papers do they have together?"
+ },
+ {
+  "id": "Q0479",
+  "question": "Who is the most common co-author of Jayanth Koushik and how many papers do they have together?",
+  "paraphrase": "Report the most frequent co-author of Jayanth Koushik and how many papers do they have together?"
+ },
+ {
+  "id": "Q0481",
+  "question": "In which year did Chrzaszcz, Jerzy publish the least publications and how many?",
+  "paraphrase": "Report the year in which Jerzy Chrzaszcz published the least papers."
+ },
+ {
+  "id": "Q0482",
+  "question": "In which year did Zhenzhou Tang publish the most papers?",
+  "paraphrase": "Most nubmer of papers were published by Zhenzhou Tang in which year?"
+ },
+ {
+  "id": "Q0483",
+  "question": "In which year did Mahmoodian, E. S. publish the least papers and how many?",
+  "paraphrase": "Least number of papers were published by Mahmoodian, E. S. in which year?"
+ },
+ {
+  "id": "Q0484",
+  "question": "When was the first publication by Paul P. N. Yang published?",
+  "paraphrase": "When was the first paper by Paul P. N. Yang published?"
+ },
+ {
+  "id": "Q0486",
+  "question": "Mention the year in which Marcin Pietron published the most papers.",
+  "paraphrase": "Most nubmer of papers were published by Marcin Pietron in which year?"
+ },
+ {
+  "id": "Q0487",
+  "question": "In which year did Michael R. M. Jenkin publish their first paper?",
+  "paraphrase": "When was the first paper by Michael R. M. Jenkin published?"
+ },
+ {
+  "id": "Q0488",
+  "question": "Who is the most frequent co-author of Jos\\u00E9 M. Hern\\u00E1ndez-Lobato and how many publications do they have together?",
+  "paraphrase": "With which author does Jos\\u00E9 M. Hern\\u00E1ndez-Lobato has the most papers and how many?"
+ },
+ {
+  "id": "Q0489",
+  "question": "Find the year in which Chen, Shih-Yeh published their first paper.",
+  "paraphrase": "When was the first paper by Chen, Shih-Yeh published?"
+ },
+ {
+  "id": "Q0490",
+  "question": "When was the first publication by Marc Sebban published?",
+  "paraphrase": "In which year did Marc Sebban publish their first paper?"
+ },
+ {
+  "id": "Q0491",
+  "question": "In which year was the first paper by Qing-Long Han published?",
+  "paraphrase": "When was the first publication by Qing-Long Han published?"
+ },
+ {
+  "id": "Q0492",
+  "question": "Report the year in which Gil-Casti\\u00F1eira, F. J. published their last paper.",
+  "paraphrase": "When was the last paper by Gil-Casti\\u00F1eira, F. J. published?"
+ },
+ {
+  "id": "Q0493",
+  "question": "Report the venue in which Elliot Fischer published the most papers.",
+  "paraphrase": "Elliot Fischer published the most papers in which venue and how many?"
+ },
+ {
+  "id": "Q0495",
+  "question": "When was the last paper by Macyk, Wojciech published?",
+  "paraphrase": "When was the last publication by Wojciech Macyk published?"
+ },
+ {
+  "id": "Q0496",
+  "question": "In which venue did Ueda, Koichi publish the most publications and how many?",
+  "paraphrase": "Report the venue in which Ueda, K. published the most papers."
+ },
+ {
+  "id": "Q0497",
+  "question": "With which author does Hiroyuki Kitagawa has the most papers and how many?",
+  "paraphrase": "Report the most frequent co-author of Hiroyuki Kitagawa and how many papers do they have together?"
+ },
+ {
+  "id": "Q0498",
+  "question": "Report the most frequent co-author of Mariano Luque and how many papers do they have together?",
+  "paraphrase": "Who is the most common co-author of Mariano Luque and how many papers do they have together?"
+ },
+ {
+  "id": "Q0499",
+  "question": "In which year was the last paper by Naimul Mefraz Khan published?",
+  "paraphrase": "When was the last paper by Naimul Mefraz Khan published?"
+ },
+ {
+  "id": "Q0500",
+  "question": "In which year did the author Tianshu Chu publish the most research papers?",
+  "paraphrase": "Mention the year in which Chu, Tianshu published the most papers."
+ },
+ {
+  "id": "Q0501",
+  "question": "Mention the number of authors of the paper 'A Bode-Like Integral for Discrete Linear Time-Periodic Systems'.",
+  "paraphrase": "The paper 'A Bode-Like Integral for Discrete Linear Time-Periodic Systems' has how many authors?"
+ },
+ {
+  "id": "Q0502",
+  "question": "When was the paper 'Designing a Collaborative Construction-Project Platform on Blockchain Technology for Transparency, Traceability, and Information Symmetry' published?",
+  "paraphrase": "Designing a Collaborative Construction-Project Platform on Blockchain Technology for Transparency, Traceability, and Information Symmetry' was published in which year?"
+ },
+ {
+  "id": "Q0503",
+  "question": "Who is the author of the paper 'Cross-lingual Training for Retrieval-based Dialogue Systems'?",
+  "paraphrase": "Cross-lingual Training for Retrieval-based Dialogue Systems' was written by who?"
+ },
+ {
+  "id": "Q0504",
+  "question": "Using Linked Statistical Data to Improve Marine Search and Rescue Operations in Ireland' has how many authors?",
+  "paraphrase": "How many authors wrote the paper 'Using Linked Statistical Data to Improve Marine Search and Rescue Operations in Ireland'?"
+ },
+ {
+  "id": "Q0505",
+  "question": "Mention the bibtex type of the paper 'A Parallel Iterative Solution Method for Systems of Nonlinear Hyperbolic Equations'.",
+  "paraphrase": "What is the bibtex type of the paper 'A Parallel Iterative Solution Method for Systems of Nonlinear Hyperbolic Equations'?"
+ },
+ {
+  "id": "Q0506",
+  "question": "The paper 'Payload-centric autonomy for in-space robotic assembly of modular space structures' has how many authors?",
+  "paraphrase": "Mention the number of authors of the paper 'Payload-centric autonomy for in-space robotic assembly of modular space structures'."
+ },
+ {
+  "id": "Q0507",
+  "question": "When was 'Grad-CAM++: Generalized Gradient-based Visual Explanations for Deep Convolutional Networks' published?",
+  "paraphrase": "Grad-CAM++: Generalized Gradient-based Visual Explanations for Deep Convolutional Networks' was published in which year?"
+ },
+ {
+  "id": "Q0508",
+  "question": "What year was 'Finger vein verification using a Siamese CNN' published?",
+  "paraphrase": "In what year was 'Finger vein verification using a Siamese CNN' published?"
+ },
+ {
+  "id": "Q0509",
+  "question": "In what year was 'A Multi-level Trust Evaluation Model Based on D-S Theory for Grid' published?",
+  "paraphrase": "The paper 'A Multi-level Trust Evaluation Model Based on D-S Theory for Grid' was published in which year?"
+ },
+ {
+  "id": "Q0510",
+  "question": "How many authors wrote the paper 'Automatic generation of cost-effective test oracles'?",
+  "paraphrase": "Mention the number of authors of the paper 'Automatic generation of cost-effective test oracles'."
+ },
+ {
+  "id": "Q0511",
+  "question": "What year was 'Accounting for Demographic Differentials in Forensic Error Rate Assessment of Latent Prints via Covariate-Specific ROC Regression' published?",
+  "paraphrase": "In what year was 'Accounting for Demographic Differentials in Forensic Error Rate Assessment of Latent Prints via Covariate-Specific ROC Regression' published?"
+ },
+ {
+  "id": "Q0512",
+  "question": "Find the venue in which the paper 'Mixed Pulse Accumulation for Compressive Sensing Radar' was published.",
+  "paraphrase": "Where was 'Mixed Pulse Accumulation for Compressive Sensing Radar' published?"
+ },
+ {
+  "id": "Q0513",
+  "question": "What year was 'Matchmaking and implementation issues for a P2P desktop grid' published?",
+  "paraphrase": "When was the paper 'Matchmaking and implementation issues for a P2P desktop grid' published?"
+ },
+ {
+  "id": "Q0514",
+  "question": "Hearing Lips: Improving Lip Reading by Distilling Speech Recognizers' was published in which year?",
+  "paraphrase": "Mention the year in which 'Hearing Lips: Improving Lip Reading by Distilling Speech Recognizers' was published."
+ },
+ {
+  "id": "Q0515",
+  "question": "Who is the author of the paper 'Interactive 3D Visualization for Theoretical Virtual Observatories'?",
+  "paraphrase": "Interactive 3D Visualization for Theoretical Virtual Observatories' was authored by which authors?"
+ },
+ {
+  "id": "Q0516",
+  "question": "Name the authors of the paper 'Planar Digraphs of Digirth Five Are 2-Colorable'.",
+  "paraphrase": "Who authored the paper 'Planar Digraphs of Digirth Five Are 2-Colorable'?"
+ },
+ {
+  "id": "Q0517",
+  "question": "How many authors does the publication 'Neural Network-Based Visual Data Mining for Cancer Data' have?",
+  "paraphrase": "The paper 'Neural Network-Based Visual Data Mining for Cancer Data' has how many authors?"
+ },
+ {
+  "id": "Q0518",
+  "question": "Mention the venue in which 'Electronic Payment Use and Legal Protection' was published.",
+  "paraphrase": "Where was 'Electronic Payment Use and Legal Protection' published?"
+ },
+ {
+  "id": "Q0519",
+  "question": "When was 'An Accurate Ultra-Compact I-V Model for Nanometer MOS Transistors With Applications on Digital Circuits' published?",
+  "paraphrase": "An Accurate Ultra-Compact I-V Model for Nanometer MOS Transistors With Applications on Digital Circuits' was published in which year?"
+ },
+ {
+  "id": "Q0520",
+  "question": "Where was 'Anxiety-Sensitive Planning: From Formal Foundations to Algorithms and Applications' published?",
+  "paraphrase": "The paper 'Anxiety-Sensitive Planning: From Formal Foundations to Algorithms and Applications' was published in which venue?"
+ },
+ {
+  "id": "Q0521",
+  "question": "Who wrote the paper 'A BPSO-Based Method for Optimal Voltage Sag Monitor Placement Considering Uncertainties of Transition Resistance'?",
+  "paraphrase": "A BPSO-Based Method for Optimal Voltage Sag Monitor Placement Considering Uncertainties of Transition Resistance' was written by who?"
+ },
+ {
+  "id": "Q0522",
+  "question": "Ein vollst\\u00E4ndiges Problem auf der Baummaschine' was published in which venue?",
+  "paraphrase": "Mention the venue in which 'Ein vollst\\u00E4ndiges Problem auf der Baummaschine' was published."
+ },
+ {
+  "id": "Q0523",
+  "question": "The paper 'CPP-SNS: A Solution to Influence Maximization Problem under Cost Control' was published in which year?",
+  "paraphrase": "CPP-SNS: A Solution to Influence Maximization Problem under Cost Control' was published in which year?"
+ },
+ {
+  "id": "Q0524",
+  "question": "Mention the venue in which 'Informational Architecture of the Fission Yeast Cell Cycle Regulatory Network' was published.",
+  "paraphrase": "Where was 'Informational Architecture of the Fission Yeast Cell Cycle Regulatory Network' published?"
+ },
+ {
+  "id": "Q0525",
+  "question": "Mention the bibtex type of the paper 'Using Program by Demonstration and Visual Scripting to Supporting Game Design'.",
+  "paraphrase": "What is the bibtex type of 'Using Program by Demonstration and Visual Scripting to Supporting Game Design'?"
+ },
+ {
+  "id": "Q0526",
+  "question": "The paper 'The Social/Non-Technical Challenges in Developing Technology to Support Elderly Care - \\The TeleCARE Experience\\' was published in which year?",
+  "paraphrase": "When was the paper 'The Social/Non-Technical Challenges in Developing Technology to Support Elderly Care - \\The TeleCARE Experience\\' published?"
+ },
+ {
+  "id": "Q0527",
+  "question": "The paper 'RAWE: An Editor for Rule Markup of Legal Texts' has how many authors?",
+  "paraphrase": "Find the number of authors of the paper 'RAWE: An Editor for Rule Markup of Legal Texts'."
+ },
+ {
+  "id": "Q0528",
+  "question": "SMART Cities: The need for spatial intelligence' was published in which year?",
+  "paraphrase": "In what year was 'SMART Cities: The need for spatial intelligence' published?"
+ },
+ {
+  "id": "Q0529",
+  "question": "Find the number of authors of the paper 'Linear Time Probabilistic Algorithms for the Singular Haplotype Reconstruction Problem from SNP Fragments'.",
+  "paraphrase": "The paper 'Linear Time Probabilistic Algorithms for the Singular Haplotype Reconstruction Problem from SNP Fragments' has how many authors?"
+ },
+ {
+  "id": "Q0530",
+  "question": "A Virtual Screen Discovers Novel, Fragment-Sized Inhibitors of Mycobacterium tuberculosis InhA' was written by who?",
+  "paraphrase": "Who is the author of the paper 'A Virtual Screen Discovers Novel, Fragment-Sized Inhibitors of Mycobacterium tuberculosis InhA'?"
+ },
+ {
+  "id": "Q0531",
+  "question": "Who is the author of the paper 'Electrical signal processing techniques in long-haul fiber-optic systems'?",
+  "paraphrase": "Electrical signal processing techniques in long-haul fiber-optic systems' was written by who?"
+ },
+ {
+  "id": "Q0532",
+  "question": "The paper 'Area Guide Map Modeling by Manifolds and CW-Complexes' was published in which venue?",
+  "paraphrase": "Where was 'Area Guide Map Modeling by Manifolds and CW-Complexes' published?"
+ },
+ {
+  "id": "Q0533",
+  "question": "What is the bibtex type of the paper 'Hierarchical Classification of Vehicle Images Using NN with Conditional Adaptive Distance'?",
+  "paraphrase": "Mention the bibtex type of the paper 'Hierarchical Classification of Vehicle Images Using NN with Conditional Adaptive Distance'."
+ },
+ {
+  "id": "Q0534",
+  "question": "Imputation of Missing Network Data' was authored by which authors?",
+  "paraphrase": "Name the authors of the paper 'Imputation of Missing Network Data'."
+ },
+ {
+  "id": "Q0535",
+  "question": "In what year was 'VIRAL-Fusion: A Visual-Inertial-Ranging-Lidar Sensor Fusion Approach' published?",
+  "paraphrase": "When was 'VIRAL-Fusion: A Visual-Inertial-Ranging-Lidar Sensor Fusion Approach' published?"
+ },
+ {
+  "id": "Q0536",
+  "question": "What bibtex type of publication is 'Secure 2-User Gaussian Interference Channel with Limited Information Exchange at the Transmitters'?",
+  "paraphrase": "Find the bibtex type of the paper 'Secure 2-User Gaussian Interference Channel with Limited Information Exchange at the Transmitters'."
+ },
+ {
+  "id": "Q0537",
+  "question": "Name the authors of the paper 'Software Quality Prediction Models Compared'.",
+  "paraphrase": "Software Quality Prediction Models Compared' was authored by which authors?"
+ },
+ {
+  "id": "Q0538",
+  "question": "What is the bibtex type of 'Microphone-location dependent mask estimation for BSS using spatially distributed asynchronous microphones'?",
+  "paraphrase": "Find the bibtex type of the paper 'Microphone-location dependent mask estimation for BSS using spatially distributed asynchronous microphones'."
+ },
+ {
+  "id": "Q0539",
+  "question": "The paper 'Plato: Approximate Analytics over Compressed Time Series with Tight Deterministic Error Guarantees' has how many authors?",
+  "paraphrase": "How many authors does 'Plato: Approximate Analytics over Compressed Time Series with Tight Deterministic Error Guarantees' have?"
+ },
+ {
+  "id": "Q0540",
+  "question": "When was the paper 'New bounds on D-ary optimal codes' published?",
+  "paraphrase": "When was 'New bounds on D-ary optimal codes' published?"
+ },
+ {
+  "id": "Q0541",
+  "question": "Where was 'ChorSystem: A Message-Based System for the Life Cycle Management of Choreographies' published?",
+  "paraphrase": "ChorSystem: A Message-Based System for the Life Cycle Management of Choreographies' was published in which venue?"
+ },
+ {
+  "id": "Q0542",
+  "question": "List the authors of the paper 'On Code Generation for Multi-generator WITH-Loops in SAC'.",
+  "paraphrase": "Who authored the paper 'On Code Generation for Multi-generator WITH-Loops in SAC'?"
+ },
+ {
+  "id": "Q0543",
+  "question": "The paper 'Biologically-Inspired Concepts for Autonomic Self-protection in Multiagent Systems' has how many authors?",
+  "paraphrase": "How many authors wrote the paper 'Biologically-Inspired Concepts for Autonomic Self-protection in Multiagent Systems'?"
+ },
+ {
+  "id": "Q0544",
+  "question": "In what year was 'Greek folk music classification using auditory cortical representations' published?",
+  "paraphrase": "When was the paper 'Greek folk music classification using auditory cortical representations' published?"
+ },
+ {
+  "id": "Q0545",
+  "question": "What is the bibtex type of the publication 'High Performance Recursive LU Factorization for Multicore Systems'?",
+  "paraphrase": "Find the bibtex type of the paper 'High Performance Recursive LU Factorization for Multicore Systems'."
+ },
+ {
+  "id": "Q0546",
+  "question": "Remote Side-Channel Attacks on Anonymous Transactions' has how many authors?",
+  "paraphrase": "How many authors does the publication 'Remote Side-Channel Attacks on Anonymous Transactions' have?"
+ },
+ {
+  "id": "Q0547",
+  "question": "Who wrote the paper 'Design of hybrid architectures based on neural classifier and RBF pre-processing for ECG analysis'?",
+  "paraphrase": "List the authors of the paper 'Design of hybrid architectures based on neural classifier and RBF pre-processing for ECG analysis'."
+ },
+ {
+  "id": "Q0548",
+  "question": "Who is the author of the paper 'Hybrid Emotion-Aware Monitoring System Based on Brainwaves for Internet of Medical Things'?",
+  "paraphrase": "List the authors of the paper 'Hybrid Emotion-Aware Monitoring System Based on Brainwaves for Internet of Medical Things'."
+ },
+ {
+  "id": "Q0549",
+  "question": "The paper 'Adaptive low-complexity motion estimation algorithm for high efficiency video coding encoder' has how many authors?",
+  "paraphrase": "How many authors does 'Adaptive low-complexity motion estimation algorithm for high efficiency video coding encoder' have?"
+ },
+ {
+  "id": "Q0550",
+  "question": "Where was the paper 'Evaluation of Automatic FPGA Offloading for Loop Statements of Applications' published?",
+  "paraphrase": "In which venue was the paper 'Evaluation of Automatic FPGA Offloading for Loop Statements of Applications' published?"
+ },
+ {
+  "id": "Q0551",
+  "question": "In which venues were the other publications published by the authors of 'A New Algorithm of Constructing the Basis Finite Automaton'?",
+  "paraphrase": "What are the venues of the other papers published by the authors of the publication 'A New Algorithm of Constructing the Basis Finite Automaton'?"
+ },
+ {
+  "id": "Q0552",
+  "question": "In which other years have the authors of 'Measuring the quality of discrete representations of efficient sets in multiple objective mathematical programming' published?",
+  "paraphrase": "The authors of 'Measuring the quality of discrete representations of efficient sets in multiple objective mathematical programming' published in which other years?"
+ },
+ {
+  "id": "Q0553",
+  "question": "Which other papers were written by the authors of the paper 'ISS Property with Respect to Boundary Disturbances for a Class of Riesz-Spectral Boundary Control Systems'?",
+  "paraphrase": "Name the other publications published by the authors of 'ISS Property with Respect to Boundary Disturbances for a Class of Riesz-Spectral Boundary Control Systems'."
+ },
+ {
+  "id": "Q0554",
+  "question": "Mention the venue of the paper 'Nonchronological Video Synopsis and Indexing' authored by Yael Pritch.",
+  "paraphrase": "The paper 'Nonchronological Video Synopsis and Indexing' authored by Yael P. was published in which venue?"
+ },
+ {
+  "id": "Q0555",
+  "question": "Mention the venue of the paper 'Adaptive RMRC for cooperative manipulation of a floating object by two free-based space robots' authored by Hideura, M..",
+  "paraphrase": "Where was the paper 'Adaptive RMRC for cooperative manipulation of a floating object by two free-based space robots' authored by M. Hideura published?"
+ },
+ {
+  "id": "Q0556",
+  "question": "Name the other publications published by the authors of 'Three Models of Sequential Belief Updating on Uncertain Evidence'.",
+  "paraphrase": "Which other publications were published by the authors of the paper 'Three Models of Sequential Belief Updating on Uncertain Evidence'?"
+ },
+ {
+  "id": "Q0557",
+  "question": "In which venues were the other papers published by the authors of 'Does customizing inexactness help over simplistic precision (bit-width) reduction? A case study'?",
+  "paraphrase": "What are the venues of the other papers published by the authors of 'Does customizing inexactness help over simplistic precision (bit-width) reduction? A case study'?"
+ },
+ {
+  "id": "Q0558",
+  "question": "Which other publications were published by the authors of the paper 'RainSense: exploring the concept of a sense for weather awareness'?",
+  "paraphrase": "Which other publications were published by the authors of 'RainSense: exploring the concept of a sense for weather awareness'?"
+ },
+ {
+  "id": "Q0559",
+  "question": "Name the other publications published by the authors of 'Erratum to Free Arrangement and Rhombic Tilings'.",
+  "paraphrase": "Which other papers were written by the authors of 'Erratum to Free Arrangement and Rhombic Tilings'?"
+ },
+ {
+  "id": "Q0560",
+  "question": "List the other publications published by the authors of 'Past Visions and Reconciling Views: Visualizing Time, Texture and Themes in Cultural Collections'.",
+  "paraphrase": "Name the other publications published by the authors of 'Past Visions and Reconciling Views: Visualizing Time, Texture and Themes in Cultural Collections'."
+ },
+ {
+  "id": "Q0561",
+  "question": "The authors of 'Fast Algorithm for CU Partitioning and Mode Selection in HEVC Intra Prediction' published research papers in which other years?",
+  "paraphrase": "The authors of 'Fast Algorithm for CU Partitioning and Mode Selection in HEVC Intra Prediction' published in which other years?"
+ },
+ {
+  "id": "Q0562",
+  "question": "Mention the venues of the other papers published by the authors of 'Introduction'.",
+  "paraphrase": "In which venues were the other publications published by the authors of 'Introduction'?"
+ },
+ {
+  "id": "Q0563",
+  "question": "Which other papers were written by the authors of 'Allocation cost minimization for periodic hard real-time tasks in energy-constrained DVS systems'?",
+  "paraphrase": "Which other publications were published by the authors of 'Allocation cost minimization for periodic hard real-time tasks in energy-constrained DVS systems'?"
+ },
+ {
+  "id": "Q0564",
+  "question": "In which venues were the other publications published by the authors of 'Edge Clique Partition of K 4-Free and Planar Graphs'?",
+  "paraphrase": "Mention the venues of the other papers published by the authors of 'Edge Clique Partition of K 4-Free and Planar Graphs'."
+ },
+ {
+  "id": "Q0565",
+  "question": "What are the venues of the other papers published by the authors of the publication 'A Topology of Shared Control Systems - Finding Common Ground in Diversity'?",
+  "paraphrase": "Mention the venues of the other papers published by the authors of 'A Topology of Shared Control Systems - Finding Common Ground in Diversity'."
+ },
+ {
+  "id": "Q0566",
+  "question": "What are the primary affiliations of the authors of the paper 'Provenance Circuits for Trees and Treelike Instances'?",
+  "paraphrase": "Where are the authors of the paper 'Provenance Circuits for Trees and Treelike Instances' from?"
+ },
+ {
+  "id": "Q0567",
+  "question": "The authors of 'Approaching Artery Rigid Dynamics in IVUS' published research papers in which other years?",
+  "paraphrase": "In which other years were the authors of 'Approaching Artery Rigid Dynamics in IVUS' publishing?"
+ },
+ {
+  "id": "Q0568",
+  "question": "List the other publications published by the authors of 'A method for heuristic fuzzy modeling in noisy environment'.",
+  "paraphrase": "Which other publications were published by the authors of 'A method for heuristic fuzzy modeling in noisy environment'?"
+ },
+ {
+  "id": "Q0569",
+  "question": "Where are the authors of the paper 'Simpler is better? Lexicon-based ensemble sentiment classification beats supervised methods' from?",
+  "paraphrase": "Name the primary affiliations of the authors of 'Simpler is better? Lexicon-based ensemble sentiment classification beats supervised methods'."
+ },
+ {
+  "id": "Q0570",
+  "question": "What are the venues of the other papers published by the authors of 'Fast Gesture Recognition with Multiple Stream Discrete HMMs on 3D Skeletons'?",
+  "paraphrase": "List the venues of the other papers published by the authors of 'Fast Gesture Recognition with Multiple Stream Discrete HMMs on 3D Skeletons'."
+ },
+ {
+  "id": "Q0571",
+  "question": "Which other papers were written by the authors of the paper 'A Robust Method for Detecting Vehicle Positions and Their Movements Even in Bad Weather Using Infrared Thermal Images'?",
+  "paraphrase": "Which other publications were published by the authors of 'A Robust Method for Detecting Vehicle Positions and Their Movements Even in Bad Weather Using Infrared Thermal Images'?"
+ },
+ {
+  "id": "Q0572",
+  "question": "Find the venue of the paper 'A Cluster-Based Hybrid Feature Selection Method for Defect Prediction' authored by Fei W..",
+  "paraphrase": "Fei W. published the paper 'A Cluster-Based Hybrid Feature Selection Method for Defect Prediction' in which venue?"
+ },
+ {
+  "id": "Q0573",
+  "question": "List the venues of the other papers published by the authors of 'Experimental Evaluation of Three Designs of Electrodynamic Flexural Transducers'.",
+  "paraphrase": "In which venues were the other publications published by the authors of 'Experimental Evaluation of Three Designs of Electrodynamic Flexural Transducers'?"
+ },
+ {
+  "id": "Q0574",
+  "question": "What are the venues of the other papers published by the authors of 'ABSI: An Adaptive Binary Splitting Algorithm for Malicious Meter Inspection in Smart Grid'?",
+  "paraphrase": "What are the venues of the other papers published by the authors of the publication 'ABSI: An Adaptive Binary Splitting Algorithm for Malicious Meter Inspection in Smart Grid'?"
+ },
+ {
+  "id": "Q0575",
+  "question": "What webpages do the authors of 'A tag recommendation system for folksonomy' have?",
+  "paraphrase": "Show the webpages of authors of 'A tag recommendation system for folksonomy'."
+ },
+ {
+  "id": "Q0576",
+  "question": "What ORCIDs do the authors of 'Unmanned aerial vehicle for internet of everything: Opportunities and challenges' have?",
+  "paraphrase": "List the ORCIDs of the authors of 'Unmanned aerial vehicle for internet of everything: Opportunities and challenges'."
+ },
+ {
+  "id": "Q0577",
+  "question": "List the other publications published by the authors of 'SemWIQ - Semantic Web Integrator and Query Engine'.",
+  "paraphrase": "Which other publications were published by the authors of the paper 'SemWIQ - Semantic Web Integrator and Query Engine'?"
+ },
+ {
+  "id": "Q0578",
+  "question": "Which other papers were written by the authors of the paper 'Towards Pedestrian Target Detection with Optimized Mask R-CNN'?",
+  "paraphrase": "Name the other publications published by the authors of 'Towards Pedestrian Target Detection with Optimized Mask R-CNN'."
+ },
+ {
+  "id": "Q0579",
+  "question": "The paper 'Parallel Preprocessing for Path Queries without Concurrent Reading' authored by Hagerup, T. was published in which venue?",
+  "paraphrase": "Mention the venue of the paper 'Parallel Preprocessing for Path Queries without Concurrent Reading' authored by Torben Hagerup."
+ },
+ {
+  "id": "Q0580",
+  "question": "Find the years in which the authors of 'A 4-32 Gb/s Bidirectional Link With 3-Tap FFE/6-Tap DFE and Collaborative CDR in 22 nm CMOS' published other papers.",
+  "paraphrase": "In which other years have the authors of 'A 4-32 Gb/s Bidirectional Link With 3-Tap FFE/6-Tap DFE and Collaborative CDR in 22 nm CMOS' published?"
+ },
+ {
+  "id": "Q0581",
+  "question": "Find the ORCIDs of the authors of 'A cluster-based appraoch to content based time series retrieval (CBTSR)'.",
+  "paraphrase": "What are the ORCIDs of the authors of the paper 'A cluster-based appraoch to content based time series retrieval (CBTSR)'?"
+ },
+ {
+  "id": "Q0582",
+  "question": "What ORCIDs do the authors of the paper 'Using resource-based view theory to assess the value of ERP commercial-packages in SMEs' have?",
+  "paraphrase": "What ORCIDs do the authors of 'Using resource-based view theory to assess the value of ERP commercial-packages in SMEs' have?"
+ },
+ {
+  "id": "Q0583",
+  "question": "In which venues were the other papers published by the authors of 'CSLTA: an Expressive Logic for Continuous-Time Markov Chains'?",
+  "paraphrase": "List the venues of the other papers published by the authors of 'CSLTA: an Expressive Logic for Continuous-Time Markov Chains'."
+ },
+ {
+  "id": "Q0584",
+  "question": "In which other years have the authors of 'Intra prediction using fully connected network for video coding' published?",
+  "paraphrase": "The authors of 'Intra prediction using fully connected network for video coding' published in which other years?"
+ },
+ {
+  "id": "Q0585",
+  "question": "List the primary affiliations of the authors of 'Interacting with Visualizations'.",
+  "paraphrase": "Where are the authors of the paper 'Interacting with Visualizations' from?"
+ },
+ {
+  "id": "Q0586",
+  "question": "Name the primary affiliations of the authors of 'Implementations of Nondeterministic Programs'.",
+  "paraphrase": "Where are the authors of 'Implementations of Nondeterministic Programs' from?"
+ },
+ {
+  "id": "Q0587",
+  "question": "In which venue was the paper 'IntegraWeb: uma Arquitetura baseada em Mapeamentos Sem\\u00E2nticos(IntegraWeb: An Architectural Proposal based on Semantic Mappings)' authored by Jaime Sim\\u00E3o Sichman published?",
+  "paraphrase": "Sichman, Jaime Sim\\u00E3o published the paper 'IntegraWeb: uma Arquitetura baseada em Mapeamentos Sem\\u00E2nticos(IntegraWeb: An Architectural Proposal based on Semantic Mappings)' in which venue?"
+ },
+ {
+  "id": "Q0588",
+  "question": "List the years in which the authors of 'Specification of data schema mappings using weaving models' published other papers.",
+  "paraphrase": "In which other years were the authors of 'Specification of data schema mappings using weaving models' publishing?"
+ },
+ {
+  "id": "Q0589",
+  "question": "List the years in which the authors of 'Argumentation-based Methodology for Goal-oriented Requirements Language (GRL)' published other papers.",
+  "paraphrase": "The authors of 'Argumentation-based Methodology for Goal-oriented Requirements Language (GRL)' published in which other years?"
+ },
+ {
+  "id": "Q0590",
+  "question": "Name the primary affiliations of the authors of 'Visual Object Tracking with Colored Measurement Noise using Kalman and UFIR Filters'.",
+  "paraphrase": "What are the primary affiliations of the authors of the paper 'Visual Object Tracking with Colored Measurement Noise using Kalman and UFIR Filters'?"
+ },
+ {
+  "id": "Q0591",
+  "question": "What are the venues of the other papers published by the authors of the publication 'Servicios awareness para la mejora del escenario educativo soportado sobre KnowCat'?",
+  "paraphrase": "Mention the venues of the other papers published by the authors of 'Servicios awareness para la mejora del escenario educativo soportado sobre KnowCat'."
+ },
+ {
+  "id": "Q0592",
+  "question": "What are the primary affiliations of the authors of 'Definability and Interpolation within Decidable Fixpoint Logics'?",
+  "paraphrase": "Name the primary affiliations of the authors of 'Definability and Interpolation within Decidable Fixpoint Logics'."
+ },
+ {
+  "id": "Q0593",
+  "question": "The paper 'Self-organized ICIC for SCN' authored by Ali Imran was published in which venue?",
+  "paraphrase": "Find the venue of the paper 'Self-organized ICIC for SCN' authored by Imran, Ali."
+ },
+ {
+  "id": "Q0594",
+  "question": "List the other publications published by the authors of 'A Particle Swarm Optimization Approach for Reuse Guided Case Retrieval'.",
+  "paraphrase": "Which other papers were written by the authors of 'A Particle Swarm Optimization Approach for Reuse Guided Case Retrieval'?"
+ },
+ {
+  "id": "Q0595",
+  "question": "List the other publications published by the authors of 'Software Effort Estimation: unstructured group discussion as a method to reduce individual biasis'.",
+  "paraphrase": "Which other papers were written by the authors of 'Software Effort Estimation: unstructured group discussion as a method to reduce individual biasis'?"
+ },
+ {
+  "id": "Q0596",
+  "question": "Where was the paper 'A Unified View of Determinantal Expansions for Jack Polynomials' authored by L. Roberts published?",
+  "paraphrase": "Find the venue of the paper 'A Unified View of Determinantal Expansions for Jack Polynomials' authored by Leigh Roberts."
+ },
+ {
+  "id": "Q0597",
+  "question": "List the venues of the other papers published by the authors of 'Sparsity-aware channel estimation with contaminated pilot sequence'.",
+  "paraphrase": "In which venues were the other papers published by the authors of 'Sparsity-aware channel estimation with contaminated pilot sequence'?"
+ },
+ {
+  "id": "Q0598",
+  "question": "Which other publications were published by the authors of the paper 'Randomised Approximation in the Tutte Plane'?",
+  "paraphrase": "Which other papers were written by the authors of 'Randomised Approximation in the Tutte Plane'?"
+ },
+ {
+  "id": "Q0599",
+  "question": "Which other publications were published by the authors of the paper 'TCP/IP over the Bluetooth Wireless Ad-hoc Network'?",
+  "paraphrase": "Which other papers were written by the authors of 'TCP/IP over the Bluetooth Wireless Ad-hoc Network'?"
+ },
+ {
+  "id": "Q0600",
+  "question": "What are the ORCIDs of the authors of the paper 'TheM/GI/1 Bernoulli feedback queue with vacations'?",
+  "paraphrase": "List the ORCIDs of the authors of 'TheM/GI/1 Bernoulli feedback queue with vacations'."
+ },
+ {
+  "id": "Q0601",
+  "question": "Mention the venue of 'Developing Corpora for Statistical Graphical Language Models' and its year of publication.",
+  "paraphrase": "Where was the publication 'Developing Corpora for Statistical Graphical Language Models' published and when?"
+ },
+ {
+  "id": "Q0602",
+  "question": "Who are the authors of the publication 'Cooperation Indexes to Support Workspace Awareness' and where did they publish other papers?",
+  "paraphrase": "List the authors of 'Cooperation Indexes to Support Workspace Awareness' and the venues of the other papers they published."
+ },
+ {
+  "id": "Q0603",
+  "question": "Who are the authors of the paper 'Can Scientific Impact Be Predicted?' and what other papers did they publish?",
+  "paraphrase": "Who are the authors of the paper 'Can Scientific Impact Be Predicted?' and which other papers did they publish?"
+ },
+ {
+  "id": "Q0604",
+  "question": "Who are the authors of the paper 'The Integration of e-health into the Clinical Workflow - Electronic Health Record and Standardization Efforts' and what are the venues of the other papers they published?",
+  "paraphrase": "Who are the authors of 'The Integration of e-health into the Clinical Workflow - Electronic Health Record and Standardization Efforts' and what are the venues of the other papers they published?"
+ },
+ {
+  "id": "Q0605",
+  "question": "Who are the authors of the paper 'EEG Based Automated Detection of Six Different Eye Movement Conditions for Implementation in Personal Assistive Application' and what are the venues of the other papers they published?",
+  "paraphrase": "List the authors of 'EEG Based Automated Detection of Six Different Eye Movement Conditions for Implementation in Personal Assistive Application' and the venues of the other papers they published."
+ },
+ {
+  "id": "Q0606",
+  "question": "In which venue was the paper 'Optimal seek-trajectory design for dual-stage systems' published and when?",
+  "paraphrase": "Where was 'Optimal seek-trajectory design for dual-stage systems' published and when?"
+ },
+ {
+  "id": "Q0607",
+  "question": "Where was 'In Situ Measuring Stem Diameters of Maize Crops with a High-Throughput Phenotyping Robot' published and when?",
+  "paraphrase": "In which venue was 'In Situ Measuring Stem Diameters of Maize Crops with a High-Throughput Phenotyping Robot' published and when?"
+ },
+ {
+  "id": "Q0608",
+  "question": "In which venue was the paper 'Distributed approach of continuous queries with knn join processing in spatial data warehouse' published and when?",
+  "paraphrase": "Mention the venue of 'Distributed approach of continuous queries with knn join processing in spatial data warehouse' and its year of publication."
+ },
+ {
+  "id": "Q0609",
+  "question": "Who are the authors of the publication 'Scene image classification using locality-constrained linear coding based on histogram intersection' and what are the venues of the other papers they published?",
+  "paraphrase": "Find the authors of 'Scene image classification using locality-constrained linear coding based on histogram intersection' and the venues of the other papers they published."
+ },
+ {
+  "id": "Q0610",
+  "question": "Find the venue of 'Mobile telecommunications market innovation: the transformation from 2g to 3g' and the year of publication.",
+  "paraphrase": "Where was the publication 'Mobile telecommunications market innovation: the transformation from 2g to 3g' published and when?"
+ },
+ {
+  "id": "Q0611",
+  "question": "Who are the authors of 'Optimal Sensor Placement of the Artificial Lateral Line for Flow Parametric Identification' and what are the venues of the other papers they published?",
+  "paraphrase": "Who are the authors of the publication 'Optimal Sensor Placement of the Artificial Lateral Line for Flow Parametric Identification' and what are the venues of the other papers they published?"
+ },
+ {
+  "id": "Q0612",
+  "question": "In which venue was the paper 'Estimating the costs of software maintenance tasks' published and when?",
+  "paraphrase": "Where was the publication 'Estimating the costs of software maintenance tasks' published and when?"
+ },
+ {
+  "id": "Q0613",
+  "question": "In which venue was 'Analysis of a Neural Network Training Program Implemented with MPI and RPCs' published and when?",
+  "paraphrase": "Where was the publication 'Analysis of a Neural Network Training Program Implemented with MPI and RPCs' published and when?"
+ },
+ {
+  "id": "Q0614",
+  "question": "Find the authors of 'Automata-Based Verification of Programs with Tree Updates' and the venues of the other papers they published.",
+  "paraphrase": "Who are the authors of the paper 'Automata-Based Verification of Programs with Tree Updates' and what are the venues of the other papers they published?"
+ },
+ {
+  "id": "Q0615",
+  "question": "In which venue was the paper 'Rotational data augmentation for electroencephalographic data' published and when?",
+  "paraphrase": "Find the venue of 'Rotational data augmentation for electroencephalographic data' and the year of publication."
+ },
+ {
+  "id": "Q0616",
+  "question": "Who are the authors of the paper 'Neural Networks for Collision Avoidance between Autonomous Mobile Robots' and which other papers did they publish?",
+  "paraphrase": "Who are the authors of the publication 'Neural Networks for Collision Avoidance between Autonomous Mobile Robots' and what other papers did they publish?"
+ },
+ {
+  "id": "Q0617",
+  "question": "List the authors of 'A novel modeling for a dual three-phase permanent magnet synchronous machine' and the venues of the other papers they published.",
+  "paraphrase": "Who are the authors of the publication 'A novel modeling for a dual three-phase permanent magnet synchronous machine' and what are the venues of the other papers they published?"
+ },
+ {
+  "id": "Q0618",
+  "question": "List the authors of 'Evaluating similarity measures for hyperspectral classification of tree species at Ordway-Swisher Biological Station' and the venues of the other papers they published.",
+  "paraphrase": "Who are the authors of the paper 'Evaluating similarity measures for hyperspectral classification of tree species at Ordway-Swisher Biological Station' and where did they publish other papers?"
+ },
+ {
+  "id": "Q0619",
+  "question": "Who are the authors of the publication 'Flexible parametrization of postnonlinear mixtures model in blind sources separation' and which other papers did they publish?",
+  "paraphrase": "List the authors of 'Flexible parametrization of postnonlinear mixtures model in blind sources separation' and the other papers they published."
+ },
+ {
+  "id": "Q0620",
+  "question": "Who are the authors of the paper 'Improved global exponential stability criteria of cellular neural networks with time-varying delays' and what are the venues of the other papers they published?",
+  "paraphrase": "List the authors of 'Improved global exponential stability criteria of cellular neural networks with time-varying delays' and the venues of the other papers they published."
+ },
+ {
+  "id": "Q0621",
+  "question": "Who are the authors of 'A choice of forcing terms in inexact Newton iterations with application to pseudo-transient continuation for incompressible fluid flow computations' and what are the venues of the other papers they published?",
+  "paraphrase": "Who are the authors of the paper 'A choice of forcing terms in inexact Newton iterations with application to pseudo-transient continuation for incompressible fluid flow computations' and where did they publish other papers?"
+ },
+ {
+  "id": "Q0622",
+  "question": "Find the authors of 'Identification of Generalized Communities with Semantics in Networks with Content' and the other papers they published.",
+  "paraphrase": "List the authors of 'Identification of Generalized Communities with Semantics in Networks with Content' and the other papers they published."
+ },
+ {
+  "id": "Q0623",
+  "question": "Who are the authors of 'How People Perceive Human- and Product-like Robots: Cross-cultural Analysis Between Japan and Korea' and what are the venues of the other papers they published?",
+  "paraphrase": "Who are the authors of the publication 'How People Perceive Human- and Product-like Robots: Cross-cultural Analysis Between Japan and Korea' and where did they publish other papers?"
+ },
+ {
+  "id": "Q0624",
+  "question": "Who are the authors of the publication 'The Impact of Service Cohesion on the Analyzability of Service-Oriented Software' and where did they publish other papers?",
+  "paraphrase": "Who are the authors of the paper 'The Impact of Service Cohesion on the Analyzability of Service-Oriented Software' and what are the venues of the other papers they published?"
+ },
+ {
+  "id": "Q0625",
+  "question": "Who are the authors of the paper 'Utilization of Visual Information Perception Characteristics to Improve Classification Accuracy of Driver's Visual Search Intention for Intelligent Vehicle' and what are the venues of the other papers they published?",
+  "paraphrase": "Who are the authors of 'Utilization of Visual Information Perception Characteristics to Improve Classification Accuracy of Driver's Visual Search Intention for Intelligent Vehicle' and what are the venues of the other papers they published?"
+ },
+ {
+  "id": "Q0626",
+  "question": "Who are the authors of the paper 'An EM transfer learning algorithm with applications in bionic hand prostheses' and what are their affiliations?",
+  "paraphrase": "Who are the authors of the paper 'An EM transfer learning algorithm with applications in bionic hand prostheses' and where are they from?"
+ },
+ {
+  "id": "Q0627",
+  "question": "Who are the authors of the paper 'Dynamical And-Or Graph Learning for Object Shape Modeling and Detection' and what are their affiliations?",
+  "paraphrase": "Who are the authors of the paper 'Dynamical And-Or Graph Learning for Object Shape Modeling and Detection' and where are they from?"
+ },
+ {
+  "id": "Q0628",
+  "question": "Who are the authors of the paper 'Source Localization for Uniform Noise Maximum Likelihood Estimation Method and Iterative Algorithm Based on AOA' and what are the venues of the other papers they published?",
+  "paraphrase": "Who are the authors of 'Source Localization for Uniform Noise Maximum Likelihood Estimation Method and Iterative Algorithm Based on AOA' and what are the venues of the other papers they published?"
+ },
+ {
+  "id": "Q0629",
+  "question": "Mention the venue of 'Energy Model of SARA and Its Performance Analysis' and its year of publication.",
+  "paraphrase": "Find the venue of 'Energy Model of SARA and Its Performance Analysis' and the year of publication."
+ },
+ {
+  "id": "Q0630",
+  "question": "Who are the authors of the paper 'Consumption of Hate Speech on Twitter: A Topical Approach to Capture Networks of Hateful Users' and what are their affiliations?",
+  "paraphrase": "Who are the authors of the paper 'Consumption of Hate Speech on Twitter: A Topical Approach to Capture Networks of Hateful Users' and where are they from?"
+ },
+ {
+  "id": "Q0631",
+  "question": "List the authors of 'Research on 3D canopy's reflectance model of semi-arid grassland' and their affiliations.",
+  "paraphrase": "Who are the authors of the publication 'Research on 3D canopy's reflectance model of semi-arid grassland' and where are they from?"
+ },
+ {
+  "id": "Q0632",
+  "question": "Who are the authors of the publication 'Medicine and Health Care as a Data Problem: Will Computers Become Better Medical Doctors?' and what other papers did they publish?",
+  "paraphrase": "List the authors of 'Medicine and Health Care as a Data Problem: Will Computers Become Better Medical Doctors?' and the other papers they published."
+ }
+]
