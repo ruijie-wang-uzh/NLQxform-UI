@@ -1,6 +1,15 @@
-# NLQxform-UI
+# [NLQxform-UI: A Natural Language Interface for Querying DBLP Interactively](https://arxiv.org/abs/2403.08475)
 
-The code for our paper **NLQxform-UI: A Natural Language Interface for Querying DBLP Interactively** (currently under review).
+Ruijie Wang, Zhiruo Zhang, Luca Rossetto, Florian Ruosch, Abraham Bernstein
+
+This repository contains the code of NLQxform-UI, which is a web-based interactive QA system over [DBLP Knowledge Graph](https://blog.dblp.org/tag/knowledge-graph/).
+
+The system is built on top of [NLQxform](https://ceur-ws.org/Vol-3592/paper2.pdf) &mdash the :trophy: winner of the [DBLP_QuAD KGQA Task - Scholarly QALD Challenge](https://kgqa.github.io/scholarly-QALD-challenge/2023/) at [The 22nd International Semantic Web Conference (ISWC 2023)](https://iswc2023.semanticweb.org/).
+
+
+## System Overview
+
+![system overview](https://github.com/ruijie-wang-uzh/NLQxform-UI/blob/main/system.png?raw=true)
 
 
 ## Built With
@@ -9,7 +18,6 @@ The code for our paper **NLQxform-UI: A Natural Language Interface for Querying 
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-  
 
 ## Getting Started
 
@@ -74,3 +82,17 @@ If running on a remote server, you can find the address to use from the log reco
 [Flask-url]: https://flask.palletsprojects.com/en/3.0.x/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+
+
+## Citation
+
+```
+@misc{wang2024nlqxformui,
+      title={NLQxform-UI: A Natural Language Interface for Querying DBLP Interactively}, 
+      author={Ruijie Wang and Zhiruo Zhang and Luca Rossetto and Florian Ruosch and Abraham Bernstein},
+      year={2024},
+      eprint={2403.08475},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
+```
