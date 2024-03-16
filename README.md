@@ -4,8 +4,9 @@ Ruijie Wang, Zhiruo Zhang, Luca Rossetto, Florian Ruosch, Abraham Bernstein
 
 This repository contains the code of NLQxform-UI, which is a web-based interactive QA system over [DBLP Knowledge Graph](https://blog.dblp.org/tag/knowledge-graph/).
 
-The system is built on top of [NLQxform](https://ceur-ws.org/Vol-3592/paper2.pdf) &mdash the :trophy: winner of the [DBLP_QuAD KGQA Task - Scholarly QALD Challenge](https://kgqa.github.io/scholarly-QALD-challenge/2023/) at [The 22nd International Semantic Web Conference (ISWC 2023)](https://iswc2023.semanticweb.org/).
+The system is built on top of [NLQxform](https://ceur-ws.org/Vol-3592/paper2.pdf) &mdash; the :trophy: winner of the [DBLP_QuAD KGQA Task - Scholarly QALD Challenge](https://kgqa.github.io/scholarly-QALD-challenge/2023/) at [The 22nd International Semantic Web Conference (ISWC 2023)](https://iswc2023.semanticweb.org/).
 
+Please refer to the [NLQxform repository](https://github.com/ruijie-wang-uzh/NLQxform) for the details of the underlying query generation model and training process.
 
 ## System Overview
 
